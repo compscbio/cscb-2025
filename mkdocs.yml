@@ -1,0 +1,88 @@
+site_name: CSCB 2025
+site_author: Patrick Cahan
+copyright: Copyright &copy; 2025 Patrick Cahan
+repo_url: https://github.com/compscbio/cscb-2025
+
+use_directory_urls: false
+
+extra_css:
+  - stylesheets/extra.css
+
+theme:
+  name: material
+  palette:
+    primary: teal
+  logo: images/logoGlow.png
+  favicon: images/logo.png
+  features:
+    - content.footnote.tooltips
+
+markdown_extensions:
+  - md_in_html
+  - footnotes
+  - admonition
+  - attr_list
+  - tables
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+plugins:
+  - search
+  - mkdocs-jupyter:
+      execute: false  # Set to true if you want to execute notebooks on build
+
+nav:
+  - Home: index.md
+  - Topics:
+    - 'Course introduction': 'topics/intro.md' # course overview and mechanics
+    - 'Stem cell biology basics': 'topics/scb_basics.md' # bio concepts, history, future
+    - 'Single cell biology': 'topics/dropseq.md' # how scRNA-seq data is generated
+    - 'scRNA-seq analysis 1': 'topics/sc_analysis_1.md' # preprocessing QC to PCA
+    - 'scRNA-seq analysis 2': 'topics/sc_analysis_2.md' # analysis from kNN to GSEA
+    - 'Cell identity': 'topics/cell_identity.md' # 
+    - 'Integration and cell typing': 'topics/integration_celltyping.md'
+    - 'Development and differentiation': 'topics/dev_and_diff.md'
+    - 'Trajectory inference and pseudotime 1': 'topics/ti_1.md'
+    - 'Trajectory inference and pseudotime 2': 'topics/ti_2.md'
+    - 'Fate potential': 'topics/stemness.md'
+    - 'Cell fate engineering': 'topics/cfe.md' # pluripotency; iPSC; d.diff; direct conversion
+    - 'Gene regulatory networks 1': 'topics/grns_1.md' # intro and from RNA
+    - 'Gene regulatory networks 2': 'topics/grns_1.md' # chromatin accessibility ATAC
+    - 'CFE computational tools': 'topics/cfe_tools.md' # CellNet, Mogrify, etc
+    - 'Forecasting and simulations': 'topics/simulations.md' # Cell Oracle, OneSC
+    - 'Cell-cell interactions': 'topics/c2c.md' # 
+    - 'Spatial transcriptomics 1': 'topics/st_1.md' # data generation and example stud
+    - 'Spatial transcriptomics 2': 'topics/st_2.md' # c2c, cool tools
+    - 'Lineage tracing': 'topics/lineage_tracing.md'
+    - 'Controversies': 'topics/controversies.md'
+  - Jupyter notebooks:
+    - 'Comp basics': 'notebooks/colab.ipynb'
+    - 'scRNA-seq fundamentals': 'notebooks/L4_scBasics.ipynb'
+  - Assignments:
+    - 'HW 1': 'hws/hw_1.md'
+    - 'HW 2': 'hws/hw_2.md'
+    - 'HW 3': 'hws/hw_3.md'
+    - 'HW 4': 'hws/hw_4.md'
+    - 'HW 5': 'hws/hw_5.md'
+    - 'Project': 'hws/final_project.md'
+  - Readings: readings.md
+  - Glossary: glossary.md
+  - References: refs.md
+
+copyright: Copyright &copy; 2023 - 2025 Patrick Cahan
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/compscbio
+    - icon: fontawesome/brands/x-twitter
+      link: https://twitter.com/cahanlab
+  analytics:
+    provider: google
+    property: 301870829
+
+
+
+    
+
