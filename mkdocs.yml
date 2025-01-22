@@ -16,6 +16,10 @@ theme:
   favicon: images/logo.png
   features:
     - content.footnote.tooltips
+#    - navigation.tabs
+#    - navigation.tabs.sticky
+#    - navigation.path
+#    - navigation.indexes
 
 markdown_extensions:
   - md_in_html
@@ -23,6 +27,9 @@ markdown_extensions:
   - admonition
   - attr_list
   - tables
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: false
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
@@ -34,7 +41,9 @@ plugins:
 
 nav:
   - Home: index.md
+  - Videos: videos.md
   - Topics:
+    - 'topics/index.md'
     - 'Course introduction': 'topics/intro.md' # course overview and mechanics
     - 'Stem cell biology basics': 'topics/scb_basics.md' # bio concepts, history, future
     - 'Single cell biology': 'topics/dropseq.md' # how scRNA-seq data is generated
@@ -57,9 +66,12 @@ nav:
     - 'Lineage tracing': 'topics/lineage_tracing.md'
     - 'Controversies': 'topics/controversies.md'
   - Jupyter notebooks:
+    - 'HWEX Done': 'notebooks/hwex_done.ipynb'
     - 'Comp basics': 'notebooks/colab.ipynb'
     - 'scRNA-seq fundamentals': 'notebooks/L4_scBasics.ipynb'
   - Assignments:
+    - 'Guidelines': 'hws/guidelines.md'
+    - 'HWEX': 'hws/hw_example.md'
     - 'HW 1': 'hws/hw_1.md'
     - 'HW 2': 'hws/hw_2.md'
     - 'HW 3': 'hws/hw_3.md'

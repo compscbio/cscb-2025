@@ -34,9 +34,10 @@
 
 #### Course Information
 This course teaches students about high-throughput, genome-wide single cell measurements, and approaches to appropriately analyze such data. Real world examples from stem cell biology and developmental biology provide the biological context and motivation, but the computational expertise gained will be broadly applicable. Please see the lecture schedule below for specific topics. By the end of this course, the student should
+
 - be conversant in the language of sc-omics technologies, both at the level of general principles, and more granular understanding of how these data-generating platforms work
-- be a confident practioner in state-of-the art computational methods needed to analyze sc-omic data
-- understand the fundamentals of stem cell biology and to how sc-omics is allowing us to address major obstacles in this field
+- be a confident practitioner in state-of-the art computational methods needed to analyze sc-omic data
+- understand the fundamentals of stem cell biology and how sc-omics is allowing us to address major obstacles in this field
 
 
 #### Recommended Background
@@ -67,9 +68,6 @@ Report any violations you witness to the instructor.  You can find more informat
 
 
 #### Grades
-- **Weekly summarization of assigned reading: 10%**
-    - Each week you will be required to read a primary research paper, review article, or book chatper. Don't worry, this is not as bad as it might seem. Submit a brief write up about it. We expect these to be about one paragraph in length and to demonstrate that you did, in fact, read the assigned reading. The best write ups will discuss one specific aspect of the paper/chapter that the student found particularly interesting. Other good write ups are those that challenge claims made in the paper/chapter. 
-    - Individual work; no LLMs, chatbots, etc.
 - **Homeworks: 10% per homework. 50% total**
     - Detailed expectations will be described for each HW
     - Individual work; assistance from LLMs is allowed per guidelines in the Ethics section above.
@@ -80,24 +78,3 @@ Report any violations you witness to the instructor.  You can find more informat
 - **In class quizzes: up to 10% extra credit**
     - These will be available via Zoom, too
 - Policy on grace periods and extensions: TBA
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
