@@ -42,11 +42,12 @@ plugins:
 
 nav:
   - Home: index.md
-  - Lectures:
-    - 'lectures/index.md'
-    - 'Course introduction': 'lectures/intro.md' # course overview and mechanics
-    - 'Stem cell biology basics': 'lectures/stemcellbio_basics.md' # bio concepts, history, future
-    - 'Single cell biology': 'lectures/dropseq.md' # how scRNA-seq data is generated
+  - Lectures: 'lectures/index.md'
+#   - Lectures:
+#    - 'lectures/index.md'
+#    - 'Course introduction': 'lectures/intro.md' # course overview and mechanics
+#    - 'Stem cell biology basics': 'lectures/stemcellbio_basics.md' # bio concepts, history, future
+#    - 'Single cell biology': 'lectures/dropseq.md' # how scRNA-seq data is generated
 #    - 'scRNA-seq analysis 1': 'topics/sc_analysis_1.md' # preprocessing QC to PCA
 #    - 'scRNA-seq analysis 2': 'topics/sc_analysis_2.md' # analysis from kNN to GSEA
 #    - 'Cell identity': 'topics/cell_identity.md' # 
