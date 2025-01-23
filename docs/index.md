@@ -5,24 +5,62 @@
     <figcaption>Level up</figcaption>
 </figure>
 
-!!!info "This is the compantion site for the course"
+!!! info "This is a companion website for the class"
+    
+    **EN 580.447/647    Computational Stem Cell Biology**<br>
+    Spring, 2025 (3 credits, EQ)<br>
+    Please monitor your email and the [Canvas page](https://jhu.instructure.com/courses/90696) for notifications and announcements.
 
-    Links to lecture videos will be posted to Canvas. Please monitor your email and the Canvas page for notifications and changes in the course schedule and assignment due dates.
 
-**Biomedical Engineering 580.447/647 
-<br>Computational Stem Cell Biology 
-<br>Spring, 2025 (3 credits, EQ)**
 
 #### Education Team
-- Instructor: Patrick Cahan, Ph.D.
-- Teaching Assistants: Orian Stapleton & Gary Yang
-- Course email: compscbio@gmail.com
 
-#### Office hours
-- Patrick
-    - For a quick chat, immediately after class on Tues. Otherwise, email to schedule a time
-- Orian and Gary
-    - Time and location TBA
+
+<div class="grid cards" markdown style="font-size: 0.8em;">
+
+-   __Patrick Cahan, Ph.D.__ :fontawesome-solid-person-chalkboard:{ .lg } *Course Instructor* ![Patrick](images/patrick.jpg){ align=right width="75"}
+
+    ---
+
+    Associate Professor of Biomedical Engineering
+
+    patrick [dot] cahan [at] jhmi [dot] edu
+
+    Office hours: Immediately after class on Tues for a quick chat, otherwise email to schedule a time.
+
+    [:octicons-arrow-right-24: Cahan Lab](https://www.cahanlab.org/)
+
+
+-   __Course email__ :material-email-outline:{ .lg } compscbio@gmail.com
+  
+    ---
+
+    When emailing the team, **PLEASE** cc compscbio@gmail.com
+
+
+-   __Orian Stapleton__ :fontawesome-solid-person-chalkboard:{ .lg } *Teaching Assistant* ![Orian](images/orian_headshot.jpg){ align=right width="75"}
+  
+    ---
+
+    Ph.D student in Biomedical Engineering
+
+    ostaple1 [at] jh [dot] edu
+
+    Office hours: TBA
+
+-   __Gary Yang__ :fontawesome-solid-person-chalkboard:{ .lg } *Teaching Assistant* ![Gary](images/gary_headshot.jpg){ align=right width="75"}
+  
+    ---
+
+    Ph.D student in Biomedical Engineering
+
+    garyyang [at] jhu [dot] edu
+
+    Office hours: TBA
+
+
+</div>
+
 
 #### Class Meetings
 - 12noon to 1:15 PM on Tuesdays and Thursdays

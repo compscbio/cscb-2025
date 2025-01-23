@@ -1,11 +1,11 @@
+!!!warning "Acces to lecture videos is available to current students"
 
-
+    The lecture videos below can only be viewed after authenticating via [Hopkin's SSO](https://my.jh.edu/html/myjh.html)
 
 1. [Course introduction and overview](https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c047b280-8a46-470b-afbf-b26c01451900)
 2. Stem cell fundamentals, cell identity, and gene expression 
 3. How does scRNA-seq work?
-4. Fundamentals of scRNA-seq analysis (live analysis) 
-    1. **HW1 assigned**
+4. Fundamentals of scRNA-seq analysis
 5. Data integration and cell typing
 6. Data integration and cell typing (live analysis) **HW2 assigned**
 7. Bio break: basics of development

@@ -28,6 +28,7 @@ markdown_extensions:
   - attr_list
   - tables
   - def_list
+  - pymdownx.blocks.caption
   - pymdownx.tasklist:
       custom_checkbox: false
   - pymdownx.emoji:
@@ -41,43 +42,42 @@ plugins:
 
 nav:
   - Home: index.md
-  - Videos: videos.md
-  - Topics:
-    - 'topics/index.md'
-    - 'Course introduction': 'topics/intro.md' # course overview and mechanics
-    - 'Stem cell biology basics': 'topics/scb_basics.md' # bio concepts, history, future
-    - 'Single cell biology': 'topics/dropseq.md' # how scRNA-seq data is generated
-    - 'scRNA-seq analysis 1': 'topics/sc_analysis_1.md' # preprocessing QC to PCA
-    - 'scRNA-seq analysis 2': 'topics/sc_analysis_2.md' # analysis from kNN to GSEA
-    - 'Cell identity': 'topics/cell_identity.md' # 
-    - 'Integration and cell typing': 'topics/integration_celltyping.md'
-    - 'Development and differentiation': 'topics/dev_and_diff.md'
-    - 'Trajectory inference and pseudotime 1': 'topics/ti_1.md'
-    - 'Trajectory inference and pseudotime 2': 'topics/ti_2.md'
-    - 'Fate potential': 'topics/stemness.md'
-    - 'Cell fate engineering': 'topics/cfe.md' # pluripotency; iPSC; d.diff; direct conversion
-    - 'Gene regulatory networks 1': 'topics/grns_1.md' # intro and from RNA
-    - 'Gene regulatory networks 2': 'topics/grns_1.md' # chromatin accessibility ATAC
-    - 'CFE computational tools': 'topics/cfe_tools.md' # CellNet, Mogrify, etc
-    - 'Forecasting and simulations': 'topics/simulations.md' # Cell Oracle, OneSC
-    - 'Cell-cell interactions': 'topics/c2c.md' # 
-    - 'Spatial transcriptomics 1': 'topics/st_1.md' # data generation and example stud
-    - 'Spatial transcriptomics 2': 'topics/st_2.md' # c2c, cool tools
-    - 'Lineage tracing': 'topics/lineage_tracing.md'
-    - 'Controversies': 'topics/controversies.md'
+  - Lectures:
+    - 'lectures/index.md'
+    - 'Course introduction': 'lectures/intro.md' # course overview and mechanics
+    - 'Stem cell biology basics': 'lectures/stemcellbio_basics.md' # bio concepts, history, future
+    - 'Single cell biology': 'lectures/dropseq.md' # how scRNA-seq data is generated
+#    - 'scRNA-seq analysis 1': 'topics/sc_analysis_1.md' # preprocessing QC to PCA
+#    - 'scRNA-seq analysis 2': 'topics/sc_analysis_2.md' # analysis from kNN to GSEA
+#    - 'Cell identity': 'topics/cell_identity.md' # 
+#    - 'Integration and cell typing': 'topics/integration_celltyping.md'
+#    - 'Development and differentiation': 'topics/dev_and_diff.md'
+#    - 'Trajectory inference and pseudotime 1': 'topics/ti_1.md'
+#    - 'Trajectory inference and pseudotime 2': 'topics/ti_2.md'
+#    - 'Fate potential': 'topics/stemness.md'
+#    - 'Cell fate engineering': 'topics/cfe.md' # pluripotency; iPSC; d.diff; direct conversion
+#    - 'Gene regulatory networks 1': 'topics/grns_1.md' # intro and from RNA
+#    - 'Gene regulatory networks 2': 'topics/grns_1.md' # chromatin accessibility ATAC
+#    - 'CFE computational tools': 'topics/cfe_tools.md' # CellNet, Mogrify, etc
+#    - 'Forecasting and simulations': 'topics/simulations.md' # Cell Oracle, OneSC
+#    - 'Cell-cell interactions': 'topics/c2c.md' # 
+#    - 'Spatial transcriptomics 1': 'topics/st_1.md' # data generation and example stud
+#    - 'Spatial transcriptomics 2': 'topics/st_2.md' # c2c, cool tools
+#    - 'Lineage tracing': 'topics/lineage_tracing.md'
+#    - 'Controversies': 'topics/controversies.md'
   - Jupyter notebooks:
     - 'HWEX Done': 'notebooks/hwex_done.ipynb'
-    - 'Comp basics': 'notebooks/colab.ipynb'
-    - 'scRNA-seq fundamentals': 'notebooks/L4_scBasics.ipynb'
+#    - 'Comp basics': 'notebooks/colab.ipynb'
+#    - 'scRNA-seq fundamentals': 'notebooks/L4_scBasics.ipynb'
   - Assignments:
     - 'Guidelines': 'hws/guidelines.md'
     - 'HWEX': 'hws/hw_example.md'
-    - 'HW 1': 'hws/hw_1.md'
-    - 'HW 2': 'hws/hw_2.md'
-    - 'HW 3': 'hws/hw_3.md'
-    - 'HW 4': 'hws/hw_4.md'
-    - 'HW 5': 'hws/hw_5.md'
-    - 'Project': 'hws/final_project.md'
+#    - 'HW 1': 'hws/hw_1.md'
+#    - 'HW 2': 'hws/hw_2.md'
+#    - 'HW 3': 'hws/hw_3.md'
+#    - 'HW 4': 'hws/hw_4.md'
+#    - 'HW 5': 'hws/hw_5.md'
+#    - 'Project': 'hws/final_project.md'
   - Readings: readings.md
   - Glossary: glossary.md
   - References: refs.md
