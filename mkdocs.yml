@@ -68,8 +68,9 @@ nav:
 #    - 'Controversies': 'topics/controversies.md'
   - Jupyter notebooks:
     - 'HWEX Done': 'notebooks/hwex_done.ipynb'
+    - 'Colab': 'notebooks/colab.ipynb'
 #    - 'Comp basics': 'notebooks/colab.ipynb'
-#    - 'scRNA-seq fundamentals': 'notebooks/L4_scBasics.ipynb'
+    - 'scRNA-seq': 'notebooks/scBasics.ipynb'
   - Assignments:
     - 'Guidelines': 'hws/guidelines.md'
     - 'HWEX': 'hws/hw_example.md'
