@@ -8,10 +8,31 @@ The topics that we cover can be broadly split into three categories: stem cell b
 
 
 
-
-| Lecture| Date     | Topic               | link to video                                                                                            | lecture notes             |
+| Lecture| Date     | Topic               | link to video                                                                                            | lecture slides             |
 | ------ | -------- | ------------------- | -------------------------------------------------------------------------------------------------------- | ------------------------- |
-| 1      | 01-21-25 | Course introduction | [intro to course](https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c047b280-8a46-470b-afbf-b26c01451900) | - |
-| 2      | 01-23-25 | Stem cell biology   | [stem cell basics](https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d4192c55-13ef-4132-b3fb-b26e017de24b)| -                 |
-| 2      | 01-23-25 | Single cell biology | [game show video](https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3f3787ab-4d3e-4c66-a1e5-b26e017e2bf0) | -|
+| 1      | 01-21-25 | Course introduction | [intro to course](https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c047b280-8a46-470b-afbf-b26c01451900) |  [slides](https://jhu.instructure.com/files/13243461/download?download_frd=1)|
+| 2      | 01-23-25 | Stem cell biology   | [stem cell basics](https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d4192c55-13ef-4132-b3fb-b26e017de24b)| [slides](https://jhu.instructure.com/files/13243462/download?download_frd=1)                 |
+| 2      | 01-23-25 | Single cell biology | [game show video](https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3f3787ab-4d3e-4c66-a1e5-b26e017e2bf0) | NA |
+| 3      | 01-28-25 | scRNAseq data generation | [dropseq](https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0c5a0e61-5f44-4bf6-8b5d-b27600df1e98) | [slides](https://jhu.instructure.com/files/13243463/download?download_frd=1) |
+| 4      | 01-30-25 | Scanpy tutorial | [scanpy analysis](https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3f9337ed-0d9b-46a1-885c-b27600ccf57c) | [notebook](../notebooks/scBasics.ipynb) |
+| 5      | 02-04-25 | Data integration and cell typing | - | -|
+| 6      | 02-06-25 | Integration & typing tutorial | - | -|
+| 7      | 02-11-25 | Trajectory inference and pseudotime | - | -|
+| 8      | 02-13-25 | TI tutorial | - | -|
+| nc     | 02-18-25 | NC | - | -|
+| nc     | 02-20-25 | NC| - | -|
+| 9      | 02-25-25 | Cell fate potency | - | -|
+| 10      | 02-27-25 | Stemness tutorial| - | -|
+| 11      | 03-04-25 | Gene regulatory networks | - | -|
+| 12      | 03-06-25 | GRN tutorial| - | -|
+| 13      | 03-11-25 | Cell state forecasting | - | -|
+| 14      | 03-13-25 | Forecasting tutorial | - | -|
+
+
+
+
+
+
+
+
 
