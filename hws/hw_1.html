@@ -636,15 +636,6 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#your-mission-is-to-analyze-the-provided-data-to-address-the-following-questions" class="md-nav__link">
-    <span class="md-ellipsis">
-      Your mission is to analyze the provided data to address the following questions:
-    </span>
-  </a>
-  
-</li>
-      
     </ul>
   
 </nav>
@@ -879,15 +870,6 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#your-mission-is-to-analyze-the-provided-data-to-address-the-following-questions" class="md-nav__link">
-    <span class="md-ellipsis">
-      Your mission is to analyze the provided data to address the following questions:
-    </span>
-  </a>
-  
-</li>
-      
     </ul>
   
 </nav>
@@ -972,33 +954,37 @@
 - <a href="https://www.10xgenomics.com/resources/datasets/10-k-pbm-cs-from-a-healthy-donor-v-3-chemistry-3-standard-3-0-0">10X Genomics web page for this data</a>
 - URL to h5 file: https://cf.10xgenomics.com/samples/cell-exp/3.0.0/pbmc_10k_v3/pbmc_10k_v3_filtered_feature_bc_matrix.h5
 - file name: pbmc_10k_v3_filtered_feature_bc_matrix.h5</p>
-<h3 id="your-mission-is-to-analyze-the-provided-data-to-address-the-following-questions">Your mission is to analyze the provided data to address the following questions:</h3>
-<ul>
-<li><strong>(1) What is the cell type composition of PBMCs of Sample 1?</strong><ul>
-<li>Deliverables: <ul>
-<li>new .obs column indicating cell type</li>
-<li>appropriate visualization (i.e. UMAP with clusters labeled, supported by dotplot that shows expression of marker genes)</li>
+<div class="admonition info">
+<p class="admonition-title">Your mission</p>
+<p>Analyze the provided data to address the questions listed below</p>
+</div>
+<ol>
+<li>
+<p><strong>What is the cell type composition of PBMCs of Sample 1?</strong></p>
+<p>Deliverables:</p>
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox" disabled/> new .obs column indicating cell type</li>
+<li class="task-list-item"><input type="checkbox" disabled/> appropriate visualization (i.e. UMAP with clusters labeled, supported by dotplot that shows exwpression of marker genes)</li>
 </ul>
 </li>
+<li>
+<p><strong>How does this estimate of cell composition compare to prior literature?</strong>
+    To evaluate this rapidly and efficiently, write a function that will take a list of anndata objects that have cell annotations, and produces stacked barplot figure, one bar for scRNAseq, one for proportions from literature. each rectangle in a bar reflects % of sample annotated as cell type X.</p>
+<p>Deliverables:</p>
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox" disabled/> The function definition</li>
+<li class="task-list-item"><input type="checkbox" disabled/> Use of the function to produce the stacked boxplot that shows the cell type proportions from scRNAseq and from literature</li>
 </ul>
 </li>
-<li><strong>(2) How does this estimate of cell composition compare to prior literature?</strong> To evaluate this rapidly and efficiently, write a function that will take a list of anndata objects that have cell annotations, and produces stacked barplot figure, one bar for scRNAseq, one for proportions from literature. each rectangle in a bar reflects % of sample annotated as cell type X.<ul>
-<li>Deliverables:<ul>
-<li>The function definition</li>
-<li>Use of the function to produce the stacked boxplot that shows the cell type proportions from scRNAseq and from literature</li>
+<li>
+<p><strong>What are the transcriptional signatures of each of the PBMC cell types?</strong> We know about some genes that are preferentially expressed in each PBMC cell type (in fact, you used some of these to perform cluster annotation). But one of the benefits of performing genome-wide analyses is that it can identify genes previously unlinked to the phenomenon under study. Your task here is to identify all genes that are preferentially expressed in each PBMC cell type. </p>
+<p>Deliverables:</p>
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox" disabled/> One list per cell type containing genes defined by the student as 'preferentially  expressed' in the corresponding cell type.</li>
+<li class="task-list-item"><input type="checkbox" disabled/> Visualization: dot plot showing expression and % cells expressed of the top X genes per cell type</li>
 </ul>
 </li>
-</ul>
-</li>
-<li><strong>(3)</strong> While we know about some genes that are preferenntially expressed in each PBC cell type, in fact, you used some of these to perform cluster annotation. But one of the benefits of performing genome-wide analyses is that it can identify genes previously unlinked to the phenomenon unders study. Therefore, you want to identify all genes that are preferentially expressed in each PBMC cell type. In other words, <strong>what are the transcriptional signatures of these cell types?</strong> <ul>
-<li>Deliverables:<ul>
-<li>one list per cell type containing genes defined by the student as 'preferentially  expressed' in the corresponding cell type.</li>
-<li>visualization: dot plot showing expression and % cells expressed of the top X genes per cell type</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
+</ol>
 <div class="admonition success">
 <p class="admonition-title"><strong>ALL SUBMISSIONS MUST...</strong></p>
 <p>... include <em>all</em> code necessary to replicate the results, and must adhere to posted guidelines for code documentation, cogent written reports, and meaningful figures.</p>
