@@ -74,7 +74,7 @@ nav:
   - Assignments:
     - 'Guidelines': 'hws/guidelines.md'
     - 'HWEX': 'hws/hw_example.md'
-#    - 'HW 1': 'hws/hw_1.md'
+    - 'HW 1': 'hws/hw_1.md'
 #    - 'HW 2': 'hws/hw_2.md'
 #    - 'HW 3': 'hws/hw_3.md'
 #    - 'HW 4': 'hws/hw_4.md'
