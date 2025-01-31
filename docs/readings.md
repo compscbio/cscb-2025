@@ -12,7 +12,7 @@ Please try to read the first paper for each week. Other papers listed will be di
 
 1. [Quality control](https://www.sc-best-practices.org/preprocessing_visualization/quality_control.html) sections: 6.0 - 6.3
 
-2. [Normalizatin](https://www.sc-best-practices.org/preprocessing_visualization/normalization.html) section 7.0 - 7.1
+2. [Normalization](https://www.sc-best-practices.org/preprocessing_visualization/normalization.html) section 7.0 - 7.1
 
 3. [PCA](https://www.sc-best-practices.org/preprocessing_visualization/dimensionality_reduction.html) 9.0 - 9.1
 

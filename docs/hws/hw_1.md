@@ -52,20 +52,33 @@ This is the same Sample 1 as we used in Lecture 4. Here are some more details:
 - [10X Genomics web page for this data](https://www.10xgenomics.com/resources/datasets/10-k-pbm-cs-from-a-healthy-donor-v-3-chemistry-3-standard-3-0-0)
 - URL to h5 file: https://cf.10xgenomics.com/samples/cell-exp/3.0.0/pbmc_10k_v3/pbmc_10k_v3_filtered_feature_bc_matrix.h5
 - file name: pbmc\_10k\_v3\_filtered\_feature\_bc\_matrix.h5
-### Your mission is to analyze the provided data to address the following questions:
-- **(1) What is the cell type composition of PBMCs of Sample 1?**
-	- Deliverables: 
-		- new .obs column indicating cell type
-		- appropriate visualization (i.e. UMAP with clusters labeled, supported by dotplot that shows expression of marker genes)
-- **(2) How does this estimate of cell composition compare to prior literature?** To evaluate this rapidly and efficiently, write a function that will take a list of anndata objects that have cell annotations, and produces stacked barplot figure, one bar for scRNAseq, one for proportions from literature. each rectangle in a bar reflects % of sample annotated as cell type X.
-	- Deliverables:
-		- The function definition
-		- Use of the function to produce the stacked boxplot that shows the cell type proportions from scRNAseq and from literature
-- **(3)** While we know about some genes that are preferenntially expressed in each PBC cell type, in fact, you used some of these to perform cluster annotation. But one of the benefits of performing genome-wide analyses is that it can identify genes previously unlinked to the phenomenon unders study. Therefore, you want to identify all genes that are preferentially expressed in each PBMC cell type. In other words, **what are the transcriptional signatures of these cell types?** 
-	- Deliverables:
-		- one list per cell type containing genes defined by the student as 'preferentially  expressed' in the corresponding cell type.
-		- visualization: dot plot showing expression and % cells expressed of the top X genes per cell type
 
+!!!info "Your mission"
+
+	Analyze the provided data to address the questions listed below
+
+
+1. **What is the cell type composition of PBMCs of Sample 1?**
+
+	Deliverables:
+
+	- [ ] new .obs column indicating cell type
+	- [ ] appropriate visualization (i.e. UMAP with clusters labeled, supported by dotplot that shows exwpression of marker genes)
+
+2. **How does this estimate of cell composition compare to prior literature?**
+	To evaluate this rapidly and efficiently, write a function that will take a list of anndata objects that have cell annotations, and produces stacked barplot figure, one bar for scRNAseq, one for proportions from literature. each rectangle in a bar reflects % of sample annotated as cell type X.
+
+	Deliverables:
+
+	- [ ] The function definition
+	- [ ] Use of the function to produce the stacked boxplot that shows the cell type proportions from scRNAseq and from literature
+
+3. **What are the transcriptional signatures of each of the PBMC cell types?** We know about some genes that are preferentially expressed in each PBMC cell type (in fact, you used some of these to perform cluster annotation). But one of the benefits of performing genome-wide analyses is that it can identify genes previously unlinked to the phenomenon under study. Your task here is to identify all genes that are preferentially expressed in each PBMC cell type. 
+
+	Deliverables:
+
+	- [ ] One list per cell type containing genes defined by the student as 'preferentially  expressed' in the corresponding cell type.
+	- [ ] Visualization: dot plot showing expression and % cells expressed of the top X genes per cell type
 
 !!!success "**ALL SUBMISSIONS MUST...**"
 
