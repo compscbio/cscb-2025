@@ -15,7 +15,7 @@ The topics that we cover can be broadly split into three categories: stem cell b
 | 2      | 01-23-25 | Single cell biology | [game show video](https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3f3787ab-4d3e-4c66-a1e5-b26e017e2bf0) | NA |
 | 3      | 01-28-25 | scRNAseq data generation | [dropseq](https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0c5a0e61-5f44-4bf6-8b5d-b27600df1e98) | [slides](https://jhu.instructure.com/files/13243463/download?download_frd=1) |
 | 4      | 01-30-25 | Scanpy tutorial | [scanpy analysis](https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3f9337ed-0d9b-46a1-885c-b27600ccf57c) | [notebook](../notebooks/scBasics.ipynb) |
-| 5      | 02-04-25 | Data integration and cell typing | - | -|
+| 5      | 02-04-25 | Data integration and cell typing | [hcl,scmap,bbknn,scn](https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=26d869d1-a87b-47af-a8a5-b27a0157fa57) | [slides](https://jhu.instructure.com/files/13282214/download?download_frd=1)|
 | 6      | 02-06-25 | Integration & typing tutorial | - | -|
 | 7      | 02-11-25 | Trajectory inference and pseudotime | - | -|
 | 8      | 02-13-25 | TI tutorial | - | -|

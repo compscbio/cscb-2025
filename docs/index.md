@@ -46,7 +46,7 @@
 
     ostaple1 [at] jh [dot] edu
 
-    Office hours: TBA
+    Office hours: Mondays 7:00pm - 8:00pm via [Zoom](https://JHUBlueJays.zoom.us/j/96928725553?pwd=QW7LsYDavmBUXErZ6uUe6wMiwD8i3O.1)
 
 -   __Gary Yang__ :fontawesome-solid-person-chalkboard:{ .lg } *Teaching Assistant* ![Gary](images/gary_headshot.jpg){ align=right width="75"}
   
@@ -56,7 +56,7 @@
 
     garyyang [at] jhu [dot] edu
 
-    Office hours: TBA
+    Office hours: Wednesdays 7:00pm - 8:00pm in [Brody Atrium](https://maps.app.goo.gl/x1MEcV6Tp2UmEVvDA)
 
 
 </div>
