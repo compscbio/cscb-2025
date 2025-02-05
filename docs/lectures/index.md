@@ -2,7 +2,7 @@
 
 The topics that we cover can be broadly split into three categories: stem cell biology, single cell data generation platforms, and computational methods for analyses of these data.
 
-!!!warning "Acces to lecture videos is available to current students"
+!!!warning "Access to lecture videos is available to current students"
 
     The lecture videos below can only be viewed after authenticating via [Hopkin's SSO](https://my.jh.edu/html/myjh.html)
 

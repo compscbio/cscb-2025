@@ -31,11 +31,13 @@
     [:octicons-arrow-right-24: Cahan Lab](https://www.cahanlab.org/)
 
 
--   __Course email__ :material-email-outline:{ .lg } compscbio@gmail.com
+-   __Communication__ :fontawesome-regular-comments:{ .lg } :material-email-outline:{ .lg } 
   
     ---
 
-    When emailing the team, **PLEASE** cc compscbio@gmail.com
+    Email: __compscbio@gmail.com__ 
+
+    [Piazza discussion forum](https://piazza.com/jhu/spring2025/en580447)
 
 
 -   __Orian Stapleton__ :fontawesome-solid-person-chalkboard:{ .lg } *Teaching Assistant* ![Orian](images/orian_headshot.jpg){ align=right width="75"}
@@ -61,7 +63,6 @@
 
 </div>
 
-
 #### Class Meetings
 - 12noon to 1:15 PM on Tuesdays and Thursdays
 - Shaffer Hall Room 3
@@ -77,7 +78,6 @@ This course teaches students about high-throughput, genome-wide single cell meas
 - be a confident practitioner in state-of-the art computational methods needed to analyze sc-omic data
 - understand the fundamentals of stem cell biology and how sc-omics is allowing us to address major obstacles in this field
 
-
 #### Recommended Background
 - EN.580.151 – Structural Biology of Cells :dna:, or equivalent
 - Prior hands on experience coding in Python :simple-python:
@@ -91,6 +91,7 @@ This course will address the following Criterion 3 Student Outcomes
 - An understanding of professional and ethical responsibility (Criteria 3(f))
 - An ability to communicate effectively (writing) (Criteria 3(g))
 - An ability to communicate effectively (oral presentation) (Criteria 3(g))
+
 #### Course Topics
 - Stem cell biology
 - Single cell omics technologies
@@ -101,8 +102,8 @@ The strength of the university depends on academic and personal integrity. In th
 (1) Homeworks are to be completed by each student alone. Do not share your projects with other students or use material from prior years.
 (2) The use of Large language models (LLMs) such as ChatGPT are allowed for the homeworks and final project, when doing so is consistent with the stated Course goals and Course expected outcomes (see above). The use of LLMs and similar technology is not allowed for the weekly written summaries. As a guideline, please use LLMs to augment your understanding of the material in the course, to help you to explore algorithmic ideas that might otherwise be challenging to implement, and more generally, to be a more creative problem solver.
 Report any violations you witness to the instructor.  You can find more information about university misconduct policies on the web at these sites:
-•   For undergraduates: http://e-catalog.jhu.edu/undergrad-students/student-life-policies/
-•   For graduate students: http://e-catalog.jhu.edu/grad-students/graduate-specific-policies/
+- For undergraduates: http://e-catalog.jhu.edu/undergrad-students/student-life-policies/
+- For graduate students: http://e-catalog.jhu.edu/grad-students/graduate-specific-policies/
 
 
 #### Grades
