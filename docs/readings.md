@@ -31,5 +31,21 @@ Please try to read the first paper for each week. Other papers listed will be di
 3. [Open problems in Single-cell analysis](https://openproblems.bio/results/)
 
 
+### Week 4: Trajectory inference
+
+!!! tip "Read the Monocle paper"
+    
+    Be sure to read the Monocle paper (#1 below) as it introduces all of the major concepts related to TI and pseudotime.
+
+#### Methods
+1. [Trapnell C, Cacchiarelli D, Grimsby J, Pokharel P, Li S, Morse M, Lennon NJ, Livak KJ, Mikkelsen TS, Rinn JL. The dynamics and regulators of cell fate decisions are revealed by pseudotemporal ordering of single cells. Nat Biotechnol. 2014 Apr;32(4):381-386. doi: 10.1038/nbt.2859. Epub 2014 Mar 23.](https://pubmed.ncbi.nlm.nih.gov/24658644/)
+2. [Faure L, Soldatov R, Kharchenko PV, Adameyko I. scFates: a scalable python package for advanced pseudotime and bifurcation analysis from single-cell data. Bioinformatics. 2023 Jan 1;39(1):btac746. doi: 10.1093/bioinformatics/btac746.](https://pubmed.ncbi.nlm.nih.gov/36394263/)
+3. [Street K, Risso D, Fletcher RB, Das D, Ngai J, Yosef N, Purdom E, Dudoit S. Slingshot: cell lineage and pseudotime inference for single-cell transcriptomics. BMC Genomics. 2018 Jun 19;19(1):477. doi:10.1186/s12864-018-4772-0.](https://pubmed.ncbi.nlm.nih.gov/29914354/)
+
+#### Benchmarking
+1. [Saelens W, Cannoodt R, Todorov H, Saeys Y. A comparison of single-cell trajectory inference methods. Nat Biotechnol. 2019 May;37(5):547-554. doi: 10.1038/s41587-019-0071-9. Epub 2019 Apr 1. PMID: 30936559.](https://pubmed.ncbi.nlm.nih.gov/30936559/)
+
+
+
 
 

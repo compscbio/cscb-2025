@@ -8,6 +8,9 @@ use_directory_urls: false
 extra_css:
   - stylesheets/extra.css
 
+extra_javascript:
+  - javascripts/extra.js
+
 theme:
   name: material
   palette:
@@ -16,10 +19,15 @@ theme:
   favicon: images/logo.png
   features:
     - content.footnote.tooltips
+    - navigation.expand
 #    - navigation.tabs
 #    - navigation.tabs.sticky
+#    - navigation.sections
+    - toc.integrate
 #    - navigation.path
+#    - header.autohide
 #    - navigation.indexes
+
 
 markdown_extensions:
   - md_in_html
@@ -28,6 +36,8 @@ markdown_extensions:
   - attr_list
   - tables
   - def_list
+  - toc:
+      title: On this page
   - pymdownx.blocks.caption
   - pymdownx.tasklist:
       custom_checkbox: false
@@ -39,6 +49,7 @@ plugins:
   - search
   - mkdocs-jupyter:
       execute: false  # Set to true if you want to execute notebooks on build
+      include_source: True
 
 nav:
   - Home: index.md

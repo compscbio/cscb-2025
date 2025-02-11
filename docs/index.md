@@ -116,4 +116,8 @@ Report any violations you witness to the instructor.  You can find more informat
     - Entails written and presentation portions
 - **In class quizzes: up to 10% extra credit**
     - These will be available via Zoom, too
-- Policy on grace periods and extensions: TBA
+- Policy on grace periods and extensions:
+    - HWs submitted up to 24 hours late receive a 20 pt penalty
+    - HWs submitted between 24 - 48 hours late receive a 50 pt penalty
+
+    
