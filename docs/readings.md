@@ -46,6 +46,22 @@ Please try to read the first paper for each week. Other papers listed will be di
 1. [Saelens W, Cannoodt R, Todorov H, Saeys Y. A comparison of single-cell trajectory inference methods. Nat Biotechnol. 2019 May;37(5):547-554. doi: 10.1038/s41587-019-0071-9. Epub 2019 Apr 1. PMID: 30936559.](https://pubmed.ncbi.nlm.nih.gov/30936559/)
 
 
+#### Week 5: Cell fate potency and 'stemness' (Feb 25th/27th)
+
+Paper #1 is describes CytoTRACE. Prioritize this paper.
+
+1. [Gulati GS, Sikandar SS, Wesche DJ, Manjunath A, Bharadwaj A, Berger MJ,
+Ilagan F, Kuo AH, Hsieh RW, Cai S, Zabala M, Scheeren FA, Lobo NA, Qian D, Yu
+FB, Dirbas FM, Clarke MF, Newman AM. Single-cell transcriptional diversity is a
+hallmark of developmental potential. Science. 2020 Jan 24;367(6476):405-411.
+doi: 10.1126/science.aax0249. PMID: 31974247; PMCID: PMC7694873.](https://pubmed.ncbi.nlm.nih.gov/31974247/)
+2. [Teschendorff AE, Maity AK, Hu X, Weiyan C, Lechner M. Ultra-fast scalable
+estimation of single-cell differentiation potency from scRNA-Seq data.
+Bioinformatics. 2021 Jul 12;37(11):1528-1534. doi:
+10.1093/bioinformatics/btaa987. PMID: 33244588; PMCID: PMC8275983.](https://pubmed.ncbi.nlm.nih.gov/33244588/)
+3. [Noller K, Cahan P. Cell cycle expression heterogeneity predicts degree of
+differentiation. Brief Bioinform. 2024 Sep 23;25(6):bbae536. doi:
+10.1093/bib/bbae536. PMID: 39446193; PMCID: PMC11500603.](https://pubmed.ncbi.nlm.nih.gov/39446193/)
 
 
-
+#### Week 6: 
