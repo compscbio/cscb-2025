@@ -11,6 +11,10 @@
       
       
       
+        <link rel="prev" href="hw_1.html">
+      
+      
+        <link rel="next" href="../readings.html">
       
       
       <link rel="icon" href="../images/logo.png">
@@ -18,7 +22,7 @@
     
     
       
-        <title>Homework 2 - CSCB 2025</title>
+        <title>HW 2 - CSCB 2025</title>
       
     
     
@@ -115,7 +119,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Homework 2
+              HW 2
             
           </span>
         </div>
@@ -377,19 +381,19 @@
       
   
   
+    
   
   
+  
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-          
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
         
           
           <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
@@ -403,7 +407,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
             Assignments
@@ -468,6 +472,129 @@
   
 
       </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    HW 2
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="hw_2.html" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    HW 2
+  </span>
+  
+
+      </a>
+      
+        
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="On this page">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      On this page
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#background" class="md-nav__link">
+    <span class="md-ellipsis">
+      Background
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#data" class="md-nav__link">
+    <span class="md-ellipsis">
+      Data
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Data">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#sample-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sample 1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sample-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sample 2
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sample-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sample 3
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#your-mission" class="md-nav__link">
+    <span class="md-ellipsis">
+      Your mission
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -559,9 +686,86 @@
 
 
 <h1 id="homework-2">Homework 2</h1>
-<h2 id="due-date">Due date</h2>
-<h2 id="data">Data</h2>
-<h2 id="deliverables">Deliverables</h2>
+<div class="admonition warning">
+<p class="admonition-title"><strong>Homework 2: Parameter Parcheesi</strong></p>
+<p>Deadline: Tuesday, Feb 18th 2025 11:59pm</p>
+</div>
+<h3 id="background">Background</h3>
+<p>This homework will ask you to to explore the impact of varying steps in the scRNA-seq analysis pipeline (as applied in HW1) on your estimate of cell type composition.</p>
+<div class="admonition attention">
+<p class="admonition-title"><strong>Data</strong></p>
+<p>We are using data from HW1 as well as a few more PBMC samples.</p>
+</div>
+<h3 id="data">Data</h3>
+<h4 id="sample-1">Sample 1</h4>
+<p>This is the same Sample 1 as we used in Lecture 4. Here are some more details:</p>
+<ul>
+<li>10k PBMCs from a Healthy Donor (v3 chemistry) Single Cell Gene Expression Dataset by Cell Ranger 3.0.0</li>
+<li>Peripheral blood mononuclear cells (PBMCs) from a healthy donor (the same cells were used to generate pbmc_1k_v2, pbmc_10k_v3). PBMCs are primary cells with relatively small amounts of RNA (~1pg RNA/cell).</li>
+<li>11,769 cells detected by CellRanger</li>
+<li>Sequenced on Illumina NovaSeq with approximately 54,000 reads per cell</li>
+<li><a href="https://www.10xgenomics.com/resources/datasets/10-k-pbm-cs-from-a-healthy-donor-v-3-chemistry-3-standard-3-0-0">10X Genomics web page for this data</a></li>
+<li><a href="https://cf.10xgenomics.com/samples/cell-exp/3.0.0/pbmc_10k_v3/pbmc_10k_v3_filtered_feature_bc_matrix.h5">pbmc_10k_v3_filtered_feature_bc_matrix.h5</a></li>
+</ul>
+<h4 id="sample-2">Sample 2</h4>
+<p>Here are some more details:</p>
+<ul>
+<li>20k Human PBMCs, 3’ HT v3.1, Chromium X</li>
+<li>Sourced from a healthy female donor</li>
+<li>23,837 cells</li>
+<li>35,000 reads per cell</li>
+<li><a href="https://cf.10xgenomics.com/samples/cell-exp/6.1.0/20k_PBMC_3p_HT_nextgem_Chromium_X/20k_PBMC_3p_HT_nextgem_Chromium_X_filtered_feature_bc_matrix.h5">link to downlad</a></li>
+</ul>
+<h4 id="sample-3">Sample 3</h4>
+<p>This sample was not included in Lecture 4. </p>
+<ul>
+<li>Single Cell 3' v2</li>
+<li>2,909 cells</li>
+<li>115,061 reads per cell</li>
+<li>healthy donor</li>
+<li><a href="https://jhu.instructure.com/files/13362961/download?download_frd=1">download</a></li>
+</ul>
+<h3 id="your-mission">Your mission</h3>
+<p>Analyze the provided data to address the following questions:</p>
+<ol>
+<li>You are curious about some of the steps in the processing pipeline. While some seem reasonable, others seem highly arbitrary. <strong>How does altering the pipeline impact cell composition estimates? If so, in what ways?</strong><ul>
+<li>Specifically, determine how each of the following changes (independently) impacts the estimated cell composition (as applied to Sample 1 data):<ul>
+<li>Don't filter cells based on MT content</li>
+<li>Don't filter cells based on total counts</li>
+<li>Don't normalize expression (so skip both <code>sc.pp.normalize_total()</code> and <code>sc.pp.log1p()</code></li>
+<li>Don't use PCs for kNN graph</li>
+<li>Test extreme values of n_pcs (e.g. n_pcs = 3, n_pcs = 50) when computing kNN graph</li>
+<li>Test extreme values of n_neighbors when computing kNN graph</li>
+<li><strong><em>How do each pipeline variant above alter the cell type gene signatures that you defined?</em></strong> </li>
+</ul>
+</li>
+<li>Deliverables:<ul>
+<li>Efficient visualisation of the cell type proportions across pipeline variant. Ideally the students will use their barplot function and pass it the adatas that result from annotation each of the outcomes of each variation to the pipeline.</li>
+<li>Written summary detailing effect of each change to the pipeline and an explanation (or speculation) for this result.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>To what extent do cell type compositions (as estimated by scRNA-seq) vary between samples?</strong> From your work on qustion 1 above, you have arrived at an opinion as to the best pipeline. Apply that to pipeline the additional two PBMC samples (i.e. Sample 2 and Sample 3). Compare all three to the proportion estimates from the literature (see HW1). Do you think that the variation that you observe in the scRNAseq-based estimates primarily reflect real biological variation, or do they reflect technical variation due to the vicissitudes of scRNAseq data generation and analysis?<ul>
+<li>Deliverables:<ul>
+<li>stacked barplots showing cell type compositions across samples and literature</li>
+<li>Written answer to questions about source of variation plus justification.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Adult stem cells are not as numerous as their downstream progeny and so you wonder about the factors that impact scRNA-seq's sensitivty for detecting such rare populations. Some factors include read depth (the number of UMIs per cell), size of the 'rare' population, the degree of distinctness of its transcriptome, and the analysis pipeline steps and parameters (among many other factors). <strong>Use existing Scanpy functions to explore the impact of read depth, population size, and analysis pipeline steps/parameters on the power to detect rare populations.</strong><ul>
+<li>Deliverables:<ul>
+<li>Written report including the strategy (including what cell type(s) treated as 'rare' population'), rationale, and general lessons derived from the analyses with relevant figures. What is the most important factor? What is the minimum population size (expressed as fraction of total number of cells in sample) that yields a detectable distinct cluster? How does this vary with read depth? Do variations in the pipeline alter the chance of detecting the rare population?</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<div class="admonition success">
+<p class="admonition-title"><strong>ALL SUBMISSIONS MUST...</strong></p>
+<p>... include <em>all</em> code necessary to replicate the results, and must adhere to posted guidelines for code documentation, cogent written reports, and meaningful figures.</p>
+</div>
 
 
 
