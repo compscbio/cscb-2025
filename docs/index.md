@@ -58,7 +58,7 @@
 
     garyyang [at] jhu [dot] edu
 
-    Office hours: Wednesdays 7:00pm - 8:00pm in [Brody Atrium](https://maps.app.goo.gl/x1MEcV6Tp2UmEVvDA)
+    Office hours: Wednesdays 7:00pm - 8:00pm in [Shaffer G2 or G3](https://maps.app.goo.gl/DiFq91R9jvibUaUf7)
 
 
 </div>
@@ -84,7 +84,8 @@ This course teaches students about high-throughput, genome-wide single cell meas
 - Please see some example homeworks from the [2022 course](https://compscbio.github.io/) to assess your readiness for the class.
 
 #### Course Goals
-This course will address the following Criterion 3 Student Outcomes
+This course will address the following Criterion 3 Student Outcomes:
+
 - An ability to apply knowledge of mathematics, science and engineering to solve problems related to stem cell engineering
 - An ability to analyze and interpret data using statistical, computational or mathematical methods
 - An ability to function on multidisciplinary teams (Criteria 3(d))
@@ -99,17 +100,16 @@ This course will address the following Criterion 3 Student Outcomes
 
 #### Ethics
 The strength of the university depends on academic and personal integrity. In this course, you must be honest and truthful. Ethical violations include plagiarism, reuse of assignments, improper use of the Internet and electronic devices, unauthorized collaboration, alteration of graded assignments, forgery and falsification, lying, facilitating academic dishonesty, and unfair competition. In addition, the specific ethics guidelines for this course are:
-(1) Homeworks are to be completed by each student alone. Do not share your projects with other students or use material from prior years.
-(2) The use of Large language models (LLMs) such as ChatGPT are allowed for the homeworks and final project, when doing so is consistent with the stated Course goals and Course expected outcomes (see above). The use of LLMs and similar technology is not allowed for the weekly written summaries. As a guideline, please use LLMs to augment your understanding of the material in the course, to help you to explore algorithmic ideas that might otherwise be challenging to implement, and more generally, to be a more creative problem solver.
-Report any violations you witness to the instructor.  You can find more information about university misconduct policies on the web at these sites:
-- For undergraduates: http://e-catalog.jhu.edu/undergrad-students/student-life-policies/
-- For graduate students: http://e-catalog.jhu.edu/grad-students/graduate-specific-policies/
 
+1. Homeworks are to be completed by each student alone. Do not share your projects with other students or use material from prior years.
+2. The use of Large language models (LLMs) such as ChatGPT are allowed for the homeworks and final project, when doing so is consistent with the stated Course goals and Course expected outcomes (see above). As a guideline, please use LLMs to augment your understanding of the material in the course, to help you to explore algorithmic ideas that might otherwise be challenging to implement, and more generally, to help you to become a more creative problem-solver.
+
+Report any ethics violations you witness to the teaching team. JHU has more information about university misconduct policies for [undergraduate students](http://e-catalog.jhu.edu/undergrad-students/student-life-policies/) and [graduate students](http://e-catalog.jhu.edu/grad-students/graduate-specific-policies/).
 
 #### Grades
 - **Homeworks: 10% per homework. 50% total**
     - Detailed expectations will be described for each HW
-    - Individual work; assistance from LLMs is allowed per guidelines in the Ethics section above.
+    - Individual work; assistance from LLMs is allowed per guidelines in the Ethics section above
 - **Final project: 50%**
     - Detailed expectations will be described for the project
     - Small teams (3-5 students); assistance from LLMs is allowed per guidelines in the Ethics section above.
