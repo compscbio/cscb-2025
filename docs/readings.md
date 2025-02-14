@@ -2,13 +2,13 @@
 
 Please try to read the first paper for each week. Other papers listed will be discussed in class and/or will be helpful for the homeworks. In cases where the Pubmed of the paper does not have links to OpenAccess versions of the paper, we will provide a pdf (requires being logged in to Hopkins SSO).
 
-### Week 1: scRNA-seq data generation
+### Week 1 (Jan 21/23): scRNA-seq data generation
 
 1. [Macosko EZ, Basu A, Satija R, et al. Highly Parallel Genome-wide Expression Profiling of Individual Cells Using Nanoliter Droplets. Cell. 2015;161(5):1202-1214. doi:10.1016/j.cell.2015.05.002](https://pubmed.ncbi.nlm.nih.gov/26000488/)
 
 2. [Zheng GX, Terry JM, Belgrader P, et al. Massively parallel digital transcriptional profiling of single cells. Nat Commun. 2017;8:14049. Published 2017 Jan 16. doi:10.1038/ncomms14049](https://pubmed.ncbi.nlm.nih.gov/28091601/)
 
-### Week 2: scRNA-seq analysis
+### Week 2 (Jan 28/30): scRNA-seq analysis
 
 1. [Quality control](https://www.sc-best-practices.org/preprocessing_visualization/quality_control.html) sections: 6.0 - 6.3
 2. [Normalization](https://www.sc-best-practices.org/preprocessing_visualization/normalization.html) section 7.0 - 7.1
@@ -17,7 +17,7 @@ Please try to read the first paper for each week. Other papers listed will be di
 5. [Manual cell typing](https://www.sc-best-practices.org/cellular_structure/annotation.html) 11.0 - 11.4
  
 
-### Week 3: Integration and cell typing
+### Week 3 (Feb 4/6): Integration and cell typing
 
 #### Typing and integration methods
 1. [Kiselev VY, Yiu A, Hemberg M. scmap: projection of single-cell RNA-seq data across data sets. Nat Methods. 2018 May;15(5):359-362. doi: 10.1038/nmeth.4644](https://pubmed.ncbi.nlm.nih.gov/29608555/)
@@ -31,7 +31,7 @@ Please try to read the first paper for each week. Other papers listed will be di
 3. [Open problems in Single-cell analysis](https://openproblems.bio/results/)
 
 
-### Week 4: Trajectory inference
+### Week 4 (Feb 11/13): Trajectory inference
 
 !!! tip "Read the Monocle paper"
     
@@ -46,7 +46,7 @@ Please try to read the first paper for each week. Other papers listed will be di
 1. [Saelens W, Cannoodt R, Todorov H, Saeys Y. A comparison of single-cell trajectory inference methods. Nat Biotechnol. 2019 May;37(5):547-554. doi: 10.1038/s41587-019-0071-9. Epub 2019 Apr 1. PMID: 30936559.](https://pubmed.ncbi.nlm.nih.gov/30936559/)
 
 
-### Week 5: Cell fate potency and 'stemness' (Feb 25th/27th)
+### Week 5 (Feb 18/20): Cell fate potency and 'stemness' (Feb 25th/27th)
 
 !!! tip "Read the CytoTRACE paper"
     
@@ -66,5 +66,25 @@ Bioinformatics. 2021 Jul 12;37(11):1528-1534. doi:
 differentiation. Brief Bioinform. 2024 Sep 23;25(6):bbae536. doi:
 10.1093/bib/bbae536. PMID: 39446193; PMCID: PMC11500603.](https://pubmed.ncbi.nlm.nih.gov/39446193/)
 
+### Week 6 (Feb 25/27): Gene regulation
 
-### Week 6: 
+### Week 7 (Mar 4/6): Simulations and forecasting
+
+### Week 8 (Mar 11/13): Cell-to-cell interactions
+
+### No class Mar 18/20 Spring break
+
+### Week 9 (Mar 25/26): Spatial transcriptomics
+
+
+
+
+
+
+
+
+
+
+
+
+

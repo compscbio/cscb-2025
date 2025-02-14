@@ -18,15 +18,15 @@ The topics that we cover can be broadly split into three categories: stem cell b
 | 5      | 02-04-25 | Data integration and cell typing | [hcl,scmap,bbknn,scn](https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=26d869d1-a87b-47af-a8a5-b27a0157fa57) | [slides](https://jhu.instructure.com/files/13282214/download?download_frd=1)|
 | 6      | 02-06-25 | Integration & typing tutorial | [cell typing and integration](https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=488ef118-7496-48e9-b5b5-b28100dcb379) | [notebook](../notebooks/integration.ipynb) |
 | 7      | 02-11-25 | Trajectory inference and pseudotime | [theory](https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=42a14ce2-1195-4b3f-8dc8-b2810171d20c) | [TI slides](https://jhu.instructure.com/files/13358300/download?download_frd=1)|
-| 8      | 02-13-25 | TI tutorial | - | -|
-| nc     | 02-18-25 | NC | - | -|
-| nc     | 02-20-25 | NC| - | -|
-| 9      | 02-25-25 | Cell fate potency | - | -|
-| 10      | 02-27-25 | Stemness tutorial| - | -|
-| 11      | 03-04-25 | Gene regulatory networks | - | -|
-| 12      | 03-06-25 | GRN tutorial| - | -|
-| 13      | 03-11-25 | Cell state forecasting | - | -|
-| 14      | 03-13-25 | Forecasting tutorial | - | -|
+| 8      | 02-13-25 | TI tutorial | [video](https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=44681a0a-516e-42b6-a1fb-b28401132a41) | coming soon |
+| 9     | 02-18-25 | Fate potency and stemness (pre-recorded) | - | -|
+| 10     | 02-20-25 | How-to infer fate potency (pre-recorded) | - | -|
+| 11     | 02-25-25 | Gene regulatory networks  | - | -|
+| 12     | 02-27-25 | GRN tutorial | - | -|
+| 13     | 03-04-25 | Cell state forecasting | - | -|
+| 14      | 03-06-25 | Forecasting tutorial | - | -|
+| 15      | 03-11-25 | Cell-to-cell interactions | - | -|
+| 16      | 03-13-25 | Cell-to-cell tutorial | - | -|
 
 
 
