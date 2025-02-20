@@ -20,7 +20,7 @@ The topics that we cover can be broadly split into three categories: stem cell b
 | 7      | 02-11-25 | Trajectory inference and pseudotime | [theory](https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=42a14ce2-1195-4b3f-8dc8-b2810171d20c) | [TI slides](https://jhu.instructure.com/files/13358300/download?download_frd=1)|
 | 8      | 02-13-25 | TI tutorial | [video](https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=44681a0a-516e-42b6-a1fb-b28401132a41) | coming soon |
 | 9     | 02-18-25 | Fate potency and stemness (pre-recorded) | [video](https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2b11041c-5f40-4005-9d9b-b28701854225) | [slides](https://jhu.instructure.com/files/13415514/download?download_frd=1) |
-| 10     | 02-20-25 | How-to infer fate potency (pre-recorded) | - | -|
+| 10     | 02-20-25 | How-to infer fate potency (pre-recorded) | [video](https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5203dcdb-4fe1-41cd-a7f6-b28a01150282) | coming soon |
 | 11     | 02-25-25 | Gene regulatory networks  | - | -|
 | 12     | 02-27-25 | GRN tutorial | - | -|
 | 13     | 03-04-25 | Cell state forecasting | - | -|
