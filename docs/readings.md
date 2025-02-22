@@ -68,6 +68,47 @@ differentiation. Brief Bioinform. 2024 Sep 23;25(6):bbae536. doi:
 
 ### Week 6 (Feb 25/27): Gene regulation
 
+!!! tip "Read the SCENIC+ paper"
+    
+    Paper #1 describes SCENIC+ (prioritize this paper). #2 is a succinct News and Views summary. #3 is a broad review of network biology.
+
+
+1. [Bravo González-Blas C, De Winter S, Hulselmans G, Hecker N, Matetovici I,
+Christiaens V, Poovathingal S, Wouters J, Aibar S, Aerts S. SCENIC+: single-cell
+multiomic inference of enhancers and gene regulatory networks. Nat Methods. 2023
+Sep;20(9):1355-1367. doi: 10.1038/s41592-023-01938-4. Epub 2023 Jul 13. PMID:
+37443338; PMCID: PMC10482700.](https://pubmed.ncbi.nlm.nih.gov/37443338/)
+
+2. [Costa IG. Dissecting gene regulation with multimodal sequencing. Nat Methods.
+2023 Sep;20(9):1282-1284. doi: 10.1038/s41592-023-01957-1. PMID: 37537350.](https://pubmed.ncbi.nlm.nih.gov/37537350/)
+
+3. [Zitnik M, Li MM, Wells A, Glass K, Morselli Gysi D, Krishnan A, Murali TM,
+Radivojac P, Roy S, Baudot A, Bozdag S, Chen DZ, Cowen L, Devkota K, Gitter A,
+Gosline SJC, Gu P, Guzzi PH, Huang H, Jiang M, Kesimoglu ZN, Koyuturk M, Ma J,
+Pico AR, Pržulj N, Przytycka TM, Raphael BJ, Ritz A, Sharan R, Shen Y, Singh M,
+Slonim DK, Tong H, Yang XH, Yoon BJ, Yu H, Milenković T. Current and future
+directions in network biology. Bioinform Adv. 2024 Aug 14;4(1):vbae099. doi:
+10.1093/bioadv/vbae099. PMID: 39143982; PMCID: PMC11321866.](https://pubmed.ncbi.nlm.nih.gov/39143982/)
+
+4. [Heumos L, Schaar AC, Lance C, Litinetskaya A, Drost F, Zappia L, Lücken MD,
+Strobl DC, Henao J, Curion F; Single-cell Best Practices Consortium; Schiller
+HB, Theis FJ. Best practices for single-cell analysis across modalities. Nat Rev
+Genet. 2023 Aug;24(8):550-572. doi: 10.1038/s41576-023-00586-w. Epub 2023 Mar
+31. PMID: 37002403; PMCID: PMC10066026.](https://pubmed.ncbi.nlm.nih.gov/37002403/)
+
+5. [Granja JM, Corces MR, Pierce SE, Bagdatli ST, Choudhry H, Chang HY, Greenleaf
+WJ. ArchR is a scalable software package for integrative single-cell chromatin
+accessibility analysis. Nat Genet. 2021 Mar;53(3):403-411. doi:
+10.1038/s41588-021-00790-6. Epub 2021 Feb 25. Erratum in: Nat Genet. 2021
+Jun;53(6):935. doi: 10.1038/s41588-021-00850-x. PMID: 33633365; PMCID:
+PMC8012210.](https://pubmed.ncbi.nlm.nih.gov/33633365/)
+
+6. [Schep AN, Wu B, Buenrostro JD, Greenleaf WJ. chromVAR: inferring
+transcription-factor-associated accessibility from single-cell epigenomic data.
+Nat Methods. 2017 Oct;14(10):975-978. doi: 10.1038/nmeth.4401. Epub 2017 Aug 21.
+PMID: 28825706; PMCID: PMC5623146.](https://pubmed.ncbi.nlm.nih.gov/28825706/)
+
+
 ### Week 7 (Mar 4/6): Simulations and forecasting
 
 ### Week 8 (Mar 11/13): Cell-to-cell interactions
