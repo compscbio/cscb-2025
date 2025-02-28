@@ -21,10 +21,10 @@ The topics that we cover can be broadly split into three categories: stem cell b
 | 8      | 02-13-25 | TI tutorial | [video](https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=44681a0a-516e-42b6-a1fb-b28401132a41) | coming soon |
 | 9     | 02-18-25 | Fate potency and stemness (pre-recorded) | [video](https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2b11041c-5f40-4005-9d9b-b28701854225) | [slides](https://jhu.instructure.com/files/13415514/download?download_frd=1) |
 | 10     | 02-20-25 | How-to infer fate potency (pre-recorded) | [video](https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5203dcdb-4fe1-41cd-a7f6-b28a01150282) | coming soon |
-| 11     | 02-25-25 | Gene regulatory networks  | - | -|
-| 12     | 02-27-25 | GRN tutorial | - | -|
-| 13     | 03-04-25 | Cell state forecasting | - | -|
-| 14      | 03-06-25 | Forecasting tutorial | - | -|
+| 11     | 02-25-25 | Gene regulatory networks  | [video](https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=26efe57c-2a45-4069-983c-b2920036792a) | [slides](https://jhu.instructure.com/files/13534273/download?download_frd=1)|
+| 12     | 02-27-25 | scGRN | [video](https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d304f952-3a10-4e94-bb57-b29200373b0b) | [slides](https://jhu.instructure.com/files/13534270/download?download_frd=1) |
+| 13     | 03-04-25 | Computational approaches to cell fate engineering | - | -|
+| 14      | 03-06-25 | Simulating single cell trajectories | - | -|
 | 15      | 03-11-25 | Cell-to-cell interactions | - | -|
 | 16      | 03-13-25 | Cell-to-cell tutorial | - | -|
 

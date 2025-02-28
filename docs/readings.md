@@ -108,7 +108,6 @@ transcription-factor-associated accessibility from single-cell epigenomic data.
 Nat Methods. 2017 Oct;14(10):975-978. doi: 10.1038/nmeth.4401. Epub 2017 Aug 21.
 PMID: 28825706; PMCID: PMC5623146.](https://pubmed.ncbi.nlm.nih.gov/28825706/)
 
-
 ### Week 7 (Mar 4/6): Simulations and forecasting
 
 ### Week 8 (Mar 11/13): Cell-to-cell interactions

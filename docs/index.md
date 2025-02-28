@@ -58,7 +58,7 @@
 
     garyyang [at] jhu [dot] edu
 
-    Office hours: Wednesdays 7:00pm - 8:00pm in [Shaffer G2 or G3](https://maps.app.goo.gl/DiFq91R9jvibUaUf7)
+    Office hours: Wednesdays 7:00pm - 8:00pm in [Shaffer G2 or G3](https://maps.app.goo.gl/DiFq91R9jvibUaUf7) or [Zoom](https://jhubluejays.zoom.us/j/2611293469)
 
 
 </div>
