@@ -24,7 +24,7 @@ The topics that we cover can be broadly split into three categories: stem cell b
 | 11     | 02-25-25 | Gene regulatory networks  | [video](https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=26efe57c-2a45-4069-983c-b2920036792a) | [slides](https://jhu.instructure.com/files/13534273/download?download_frd=1)|
 | 12     | 02-27-25 | scGRN | [video](https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d304f952-3a10-4e94-bb57-b29200373b0b) | [slides](https://jhu.instructure.com/files/13534270/download?download_frd=1) |
 | 13     | 03-04-25 | Computational approaches to cell fate engineering | [video](https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2aace5ae-004f-4e74-9a58-b2970134a97a) | [slides](https://jhu.instructure.com/files/13604164/download?download_frd=1) |
-| 14      | 03-06-25 | Simulating single cell trajectories | - | -|
+| 14      | 03-06-25 | Simulating single cell trajectories | [video]() | [slides]() |
 | 15      | 03-11-25 | Cell-to-cell interactions | - | -|
 | 16      | 03-13-25 | Cell-to-cell tutorial | - | -|
 
