@@ -112,6 +112,11 @@ PMID: 28825706; PMCID: PMC5623146.](https://pubmed.ncbi.nlm.nih.gov/28825706/)
 
 ### Week 8 (Mar 11/13): Cell-to-cell interactions
 
+1. [Armingol E, Officer A, Harismendy O, Lewis NE. Deciphering cell-cell
+interactions and communication from gene expression. Nat Rev Genet. 2021
+Feb;22(2):71-88. doi: 10.1038/s41576-020-00292-x. Epub 2020 Nov 9. PMID:
+33168968; PMCID: PMC7649713.](https://pubmed.ncbi.nlm.nih.gov/33168968/)
+
 ### No class Mar 18/20 Spring break
 
 ### Week 9 (Mar 25/26): Spatial transcriptomics

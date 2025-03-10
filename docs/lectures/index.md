@@ -25,8 +25,9 @@ The topics that we cover can be broadly split into three categories: stem cell b
 | 12     | 02-27-25 | scGRN | [video](https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d304f952-3a10-4e94-bb57-b29200373b0b) | [slides](https://jhu.instructure.com/files/13534270/download?download_frd=1) |
 | 13     | 03-04-25 | Computational approaches to cell fate engineering | [video](https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2aace5ae-004f-4e74-9a58-b2970134a97a) | [slides](https://jhu.instructure.com/files/13604164/download?download_frd=1) |
 | 14      | 03-06-25 | Simulating single cell trajectories | [video](https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4cbc9f26-6488-4993-89fe-b298010d6a24) | [slides](https://jhu.instructure.com/files/13616279/download?download_frd=1) |
-| 15      | 03-11-25 | Cell-to-cell interactions | - | -|
-| 16      | 03-13-25 | Cell-to-cell tutorial | - | -|
+| 15      | 03-11-25 | Intro to ST and Cell-to-cell communications | - | -|
+| 16      | 03-13-25 | Machine Learning for Spatial and Network Biology (In Malone 228; Uhtsav Chitra) | - | -|
+
 
 
 
