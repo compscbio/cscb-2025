@@ -93,15 +93,13 @@ directions in network biology. Bioinform Adv. 2024 Aug 14;4(1):vbae099. doi:
 4. [Heumos L, Schaar AC, Lance C, Litinetskaya A, Drost F, Zappia L, Lücken MD,
 Strobl DC, Henao J, Curion F; Single-cell Best Practices Consortium; Schiller
 HB, Theis FJ. Best practices for single-cell analysis across modalities. Nat Rev
-Genet. 2023 Aug;24(8):550-572. doi: 10.1038/s41576-023-00586-w. Epub 2023 Mar
-31. PMID: 37002403; PMCID: PMC10066026.](https://pubmed.ncbi.nlm.nih.gov/37002403/)
+Genet. 2023 Aug;24(8):550-572. doi: 10.1038/s41576-023-00586-w. Epub 2023 Mar 31. PMID: 37002403; PMCID: PMC10066026.](https://pubmed.ncbi.nlm.nih.gov/37002403/)
 
 5. [Granja JM, Corces MR, Pierce SE, Bagdatli ST, Choudhry H, Chang HY, Greenleaf
 WJ. ArchR is a scalable software package for integrative single-cell chromatin
 accessibility analysis. Nat Genet. 2021 Mar;53(3):403-411. doi:
 10.1038/s41588-021-00790-6. Epub 2021 Feb 25. Erratum in: Nat Genet. 2021
-Jun;53(6):935. doi: 10.1038/s41588-021-00850-x. PMID: 33633365; PMCID:
-PMC8012210.](https://pubmed.ncbi.nlm.nih.gov/33633365/)
+Jun;53(6):935. doi: 10.1038/s41588-021-00850-x. PMID: 33633365; PMCID: PMC8012210.](https://pubmed.ncbi.nlm.nih.gov/33633365/)
 
 6. [Schep AN, Wu B, Buenrostro JD, Greenleaf WJ. chromVAR: inferring
 transcription-factor-associated accessibility from single-cell epigenomic data.
