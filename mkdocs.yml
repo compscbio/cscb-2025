@@ -83,7 +83,7 @@ nav:
     - 'scRNA-seq': 'notebooks/scBasics.ipynb'
     - 'integration': 'notebooks/integration.ipynb'
     - 'trajectory inference': 'notebooks/scFates.ipynb'
-    - 'stemness': 'notebooks/stemness/.ipynb'
+    - 'stemness': 'notebooks/stemness.ipynb'
   - Assignments:
     - 'Guidelines': 'hws/guidelines.md'
     - 'HWEX': 'hws/hw_example.md'
