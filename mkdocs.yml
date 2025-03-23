@@ -91,7 +91,7 @@ nav:
     - 'HW 2': 'hws/hw_2.md'
     - 'HW 3': 'hws/hw_3.md'
     - 'HW 4': 'hws/hw_4.md'
-#    - 'HW 5': 'hws/hw_5.md'
+    - 'HW 5': 'hws/hw_5.md'
 #    - 'Project': 'hws/final_project.md'
   - Readings: readings.md
   - Glossary: glossary.md
