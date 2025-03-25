@@ -27,8 +27,11 @@ The topics that we cover can be broadly split into three categories: stem cell b
 | 14      | 03-06-25 | Simulating single cell trajectories | [video](https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4cbc9f26-6488-4993-89fe-b298010d6a24) | [slides](https://jhu.instructure.com/files/13616279/download?download_frd=1) |
 | 15      | 03-11-25 | Intro to ST and Cell-to-cell communications | [video](https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=cf7bc66b-50c9-4852-a5e8-b29e00df9a34) | [slides](https://jhu.instructure.com/files/13676434/download?download_frd=1) |
 | 16      | 03-13-25 | Machine Learning for Spatial and Network Biology (In Malone 228; Uhtsav Chitra) | - | -|
-| --      | 03-18-25 | Spring break | - | -|
-| --      | 03-20-25 | Spring break | - | -|
+| --      | 03-18-25 | Spring break | - | - |
+| --      | 03-20-25 | Spring break | - | - |
+| 17      | 03-25-25 | Early development and signaling| [video](https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=8040f932-9b9f-48aa-9e82-b2ab010e8af8) | [slides](https://jhu.instructure.com/files/13778468/download?download_frd=1) |
+| 18      | 03-27-25 | Till and McCulloch | [video]() | [slides]() |
+
 
 
 
