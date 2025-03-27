@@ -30,7 +30,8 @@ The topics that we cover can be broadly split into three categories: stem cell b
 | --      | 03-18-25 | Spring break | - | - |
 | --      | 03-20-25 | Spring break | - | - |
 | 17      | 03-25-25 | Early development and signaling| [video](https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=8040f932-9b9f-48aa-9e82-b2ab010e8af8) | [slides](https://jhu.instructure.com/files/13778468/download?download_frd=1) |
-| 18      | 03-27-25 | Till and McCulloch | [video]() | [slides]() |
+| 18      | 03-27-25 | Till and McCulloch | [video](https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=21d3cff0-632b-4e9c-a553-b2ad01136309) | [slides](https://jhu.instructure.com/files/13795807/download?download_frd=1) |
+
 
 
 
