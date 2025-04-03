@@ -31,6 +31,9 @@ The topics that we cover can be broadly split into three categories: stem cell b
 | --      | 03-20-25 | Spring break | - | - |
 | 17      | 03-25-25 | Early development and signaling| [video](https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=8040f932-9b9f-48aa-9e82-b2ab010e8af8) | [slides](https://jhu.instructure.com/files/13778468/download?download_frd=1) |
 | 18      | 03-27-25 | Till and McCulloch | [video](https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=21d3cff0-632b-4e9c-a553-b2ad01136309) | [slides](https://jhu.instructure.com/files/13795807/download?download_frd=1) |
+| --      | 04-01-25 | Final project overview | - | - |
+| --      | 04-03-25 | Epigenomics | [video](https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=75f2c92d-57ad-4b7e-97cf-b2b401026403) | [slides](https://jhu.instructure.com/files/13880116/download?download_frd=1s) |
+| --      | 04-08-25 | Multiomics | - | [slides](https://jhu.instructure.com/files/13880149/download?download_frd=1) |
 
 
 
