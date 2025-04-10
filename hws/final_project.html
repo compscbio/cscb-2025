@@ -712,8 +712,26 @@
 <p><strong>Deadline: TBA</strong></p>
 </div>
 <p><img align="right" alt="GOB" src="img/GOB.png" width="450" /></p>
-<h3 id="section-447">Section 447</h3>
-<p>DNA copy number alterations (CNA) have been detected in embryonic stem cells (ESC) and induced pluripotent stem cells (iPSC). CNAs that are specific to iPSC/ESC versus the germline can be problematic. The lesions may be tumorigenic, they may hinder derivation of selected lineages, or they may obscure disease-specific phenotypes that the lines were derrived to explore. There are lots of ways to detecte CNAs, including karyotyping, FISH, array comparative genomic hybridization, single nucleotide polymorphism (SNP) arrays<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup>, and genome sequencing. In 2010, a method called e-karyotyping was published that attempted to infer CNAs based on expression of genes co-located in the genome<sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup>. The overall goal of this project ou will use a method called e- Karyotyping that was developed by Nissim Benevisty's lab (see paper linked on syllabus). The idea behind e-Karyotpying is that a cell line with a gain in copy will have increased expression of genes encompassed by the gain as compared to cell lines that do not harbor that CNA. Similarly, cell lines with a loss in copy number will have decreased expression of genes encompassed by the lost region as compared to lines that do not harbor the deletion (or loss). One of the benefits of this approach is the gene expression profiling (by arrays or RNA-Seq) is common, and so one does not have to perform additional molecular profiling (e.g. DNA-sequencing) to detect large scale CNA.</p>
+<h3 id="introduction">Introduction</h3>
+<p>DNA copy number alterations (CNA) have been detected in embryonic stem cells (ESC) and induced pluripotent stem cells (iPSC). We will refer to pluripotent stem cells of any variety as PSCs. CNAs in PSCs can be problematic. The lesions may be tumorigenic, they may hinder differentiation generally or derivation of specific lineages, and they may obscure disease-specific phenotypes when the PSC is used for disease modeling. Therefore, methods to detect CNAs in PSCs would be highly useful. There are lots of experimental ways to detect CNAs, including karyotyping, FISH, array comparative genomic hybridization, single nucleotide polymorphism (SNP) arrays<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup>, and genome sequencing. In 2010, a method called e-karyotyping was published that attempted to infer CNAs based on expression of genes co-located in the genome<sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup>. This is cool because it leverages data that already exists. In effect, this method is a 'twofer': where you get two things for the price of one. </p>
+<p>The pressing question for your team is to define the distribution of CNAs in human PSCs using available scRNA-seq data. To achieve this, you will have to develop a tool that identifies CNAs from scRNA-seq, evaluate its performance, apply it to PSCs, and synthesize your findings with those previously reported in the literature. More details can be found below as well as specifications that distinguish the 447 and 647 deliverables.</p>
+<h3 id="deliverables-from-your-team">Deliverables from your Team</h3>
+<ol>
+<li>A link to a GitHub repository that is home to your Python package</li>
+<li>A paper that describes your tool and its application to characterize CNAs in PSCs</li>
+<li>A pre-recorded presentation in which you show off your tool and what you learned by its application. </li>
+<li>Attendance at the viewing and Q &amp; A session on the morning of May 12th (at least one team member must participate)</li>
+</ol>
+<h3 id="deliverables-from-each-student">Deliverables from each student</h3>
+<ol>
+<li>Your assessment of your teamates contributions to the final project</li>
+<li>Your assessment of another team's final project</li>
+</ol>
+<p>[^3]</p>
+<p>[^4]</p>
+<p>[^5]</p>
+<p>. dataMore recently, there have been attempts to infer large CNAs from scRNA-seq data. These have been largely limited to cancer aplications[^,,,]. The overall goal of this project is for you </p>
+<p>ou will use a method called e- Karyotyping that was developed by Nissim Benevisty's lab (see paper linked on syllabus). The idea behind e-Karyotpying is that a cell line with a gain in copy will have increased expression of genes encompassed by the gain as compared to cell lines that do not harbor that CNA. Similarly, cell lines with a loss in copy number will have decreased expression of genes encompassed by the lost region as compared to lines that do not harbor the deletion (or loss). One of the benefits of this approach is the gene expression profiling (by arrays or RNA-Seq) is common, and so one does not have to perform additional molecular profiling (e.g. DNA-sequencing) to detect large scale CNA.</p>
 <p>sd
 We have provided a scRNA-seq data set from mouse embryos at the gastrula-stage as described in the <a href="#Data">Data section</a>. In brief, it consists of epiblast cells, nascent mesoderm, anterior primitive streak, and visceral endoderm cells from E6.5 to E8.5 stage mouse embryos. Starting at E6.5, some epiblast cells will undergo the processes described above, and they will ultimately give rise to definitive endoderm or mesoderm cells. However, visceral endoderm cells are specified earlier in development and are not derived from the epiblast cells present in this data set. </p>
 <div class="admonition danger">
