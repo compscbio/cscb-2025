@@ -810,9 +810,9 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#psc-scrna-seq-data" class="md-nav__link">
+  <a href="#psc-scrnaseq-data" class="md-nav__link">
     <span class="md-ellipsis">
-      PSC scRNA-seq data
+      PSC scRNAseq data
     </span>
   </a>
   
@@ -829,84 +829,6 @@
       References
     </span>
   </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#task-1-perform-cell-typing" class="md-nav__link">
-    <span class="md-ellipsis">
-      Task 1: Perform cell-typing
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#task-2-infer-trajectory-and-pseudotime" class="md-nav__link">
-    <span class="md-ellipsis">
-      Task 2: Infer trajectory and pseudotime
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#task-3-discover-regulators-of-differentiation" class="md-nav__link">
-    <span class="md-ellipsis">
-      Task 3: Discover regulators of differentiation
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#task-4-discover-regulators-of-pluripotency" class="md-nav__link">
-    <span class="md-ellipsis">
-      Task 4: Discover regulators of pluripotency
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#task-5-compare-cytotrace-to-pseudotime" class="md-nav__link">
-    <span class="md-ellipsis">
-      Task 5: Compare Cytotrace to pseudotime
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#data_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      Data
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Data">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#scrna-seq-data-of-mouse-gastrulation-embryonic-cells" class="md-nav__link">
-    <span class="md-ellipsis">
-      scRNA-seq data of mouse gastrulation embryonic cells
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#list-of-mouse-transcription-factors" class="md-nav__link">
-    <span class="md-ellipsis">
-      List of mouse transcription factors:
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
         
@@ -1044,7 +966,7 @@
 <ul>
 <li>Most of the time, annData objects do not contain genomic regions for their genes, so you need to do something about this. </li>
 <li>Other attempts to solve this problem include gene-specific normalization based on comparison of each cell or sample to a diploid control. How these control samples use for comparison is selected is important.</li>
-<li>We recommend that you test your ideas on minimally sufficient slices of the <a href="#cna-benchmarking-data">test data</a>. that we provide.</li>
+<li>We recommend that you test your ideas on minimally sufficient slices of the <a href="#cna-benchmarking-data">test data</a> that we provide.</li>
 <li>Check out the following papers and resources for ideas:<ul>
 <li>Benchmarking CNA prediction methods paper<sup id="fnref:8"><a class="footnote-ref" href="#fn:8">8</a></sup></li>
 <li><a href="https://infercnvpy.readthedocs.io/en/latest/index.html">Python port of the InferCNV method</a></li>
@@ -1069,12 +991,12 @@
 <li>have wider range of sizes</li>
 <li>have wider ranges of frequencies</li>
 </ul>
-<p>Use this extended gold standard data to evaluate your methods ability to resolve CNAs from small to large, and to detect CNAs across frequecies. </p>
+<p>Use this extended gold standard data to evaluate your methods ability to resolve CNAs from small to large, and to detect CNAs across frequencies. </p>
 <p>If you choose to simulate a gold standard data as we have done, then you must include your simulation functionality in your method's package. If you acquire gold standard data, then you must report the precise source, how the CNA's were defined, and include in your repo any pre-processing of the data required to make it amenable to your analysis.</p>
 <p>Other requirements:
 * Notebooks that document this task's analysis must be included in your GitHub repo</p>
 <h3 id="task-3-measure-cna-in-pscs">Task 3: Measure CNA in PSCs</h3>
-<p>Now that you have developed and assessed your method, it is time to use it! Take a look at <a href="#psc-scRNA-seq-data">the list of PSC scRNA-seq data below</a>. Find an optimal subset of these datasets to see if you can infer previously reported PSC CNAs and to discover new ones.</p>
+<p>Now that you have developed and assessed your method, it is time to use it! Take a look at <a href="#psc-scrnaseq-data">the list of PSC scRNA-seq data below</a>. Find an optimal subset of these datasets to see if you can infer previously reported PSC CNAs and to discover new ones.</p>
 <p>Things to consider:</p>
 <ul>
 <li>You do not have to analyze all of these data sets</li>
@@ -1168,9 +1090,9 @@ sc.pl.heatmap(adChr22, adChr22.var_names, groupby='simulated_cnvs',layer=&quot;c
 # gene-scaled on right makes the CNA footprint more apparent
 sc.pl.heatmap(adChr22, adChr22.var_names, groupby='simulated_cnvs',layer=&quot;counts&quot;, log=True, standard_scale='var')
 </code></pre>
-<p><img align="left" alt="chr22" src="img/final_both_chr22.png" width="900" /></p>
-<p>The CNA is evident as a region with no expression in a subset of the cells. Feel free to use this data as a starting point to test ideas for your algorithm, and even to benchmark it.</p>
-<h4 id="psc-scrna-seq-data">PSC scRNA-seq data</h4>
+<p><img alt="chr22" src="img/final_both_chr22.png" /></p>
+<p>The CNA is evident as a region with no expression in a subset of the cells.</p>
+<h4 id="psc-scrnaseq-data">PSC scRNAseq data</h4>
 <p>Here is a list of publicly available scRNA-seq data of human PSCs and/or their differentiated progeny. Note that in some cases, we were able to easily find the name of the PSC cell line(s), but in other cases you will have to do this yourself.</p>
 <ol>
 <li>2D gastruloids<ul>
@@ -1262,37 +1184,6 @@ sc.pl.heatmap(adChr22, adChr22.var_names, groupby='simulated_cnvs',layer=&quot;c
 </li>
 </ol>
 <h3 id="references">References</h3>
-<p>. dataMore recently, there have been attempts to infer large CNAs from scRNA-seq data. These have been largely limited to cancer aplications[^,,,]. The overall goal of this project is for you </p>
-<p>ou will use a method called e- Karyotyping that was developed by Nissim Benevisty's lab (see paper linked on syllabus). The idea behind e-Karyotpying is that a cell line with a gain in copy will have increased expression of genes encompassed by the gain as compared to cell lines that do not harbor that CNA. Similarly, cell lines with a loss in copy number will have decreased expression of genes encompassed by the lost region as compared to lines that do not harbor the deletion (or loss). One of the benefits of this approach is the gene expression profiling (by arrays or RNA-Seq) is common, and so one does not have to perform additional molecular profiling (e.g. DNA-sequencing) to detect large scale CNA.</p>
-<h3 id="task-1-perform-cell-typing">Task 1: Perform cell-typing</h3>
-<p>Before you can reliably appy TI to this data, you must perform cell-typing to (A) identify and exclude VE cells, and (B) to identify the epiblast, mesoderm, and anterior primitive streak cells. This will allow you to suggest a root for the TI analysis. To help you with this part, here are some well-established marker genes:</p>
-<ul>
-<li>Epiblast: Utf1, Slc7a3, Pou3f1</li>
-<li>Mesoderm: Mesp1, Fgf3, Snai1</li>
-<li>Anterior primitive streak: Foxa2, Gsc, Sox17</li>
-<li>Visceral endoderm: Use your highly refined literature-mining skills to find these. Please select 3-5 genes that are reported to be VE-specific from the literature. You must cite the primary papers in which each gene has been demonstrated to be a marker of murine VE. </li>
-</ul>
-<p>You will know that you are done with Task 1 when you have clearly annotated each cell and have excluded the VE cells from the input data.</p>
-<h3 id="task-2-infer-trajectory-and-pseudotime">Task 2: Infer trajectory and pseudotime</h3>
-<p>Use scFates to reconstruct a trajectory that connects epiblast to APS, and epiblast to mesoderm. Then predict the pseudotime for each cell. To receive full credit for Part 2, you must infer the tree, justify your parameter selections, and visualize the resulting tree with labeled branches and milestones, and visualize pseudotime.</p>
-<h3 id="task-3-discover-regulators-of-differentiation">Task 3: Discover regulators of differentiation</h3>
-<p>What transcription factors might promote the transition from epiblast to mesoderm or to endoderm? Develop a critiera for ranking transcription factors (TFs) accoring to their predicted importance or influence on differentiation. This could be simply the p-value from scFates's association test, or you might conceive of other criteria. Use this criteria to select the top X TFs (where X &gt;4) that specifically promotes mesoderm or endoderm differentiation from the epiblast. Mine the literature around each of your candidate TFs to assess the extent to which your criteria and application of scFates recovered bona fide regulators of gastrulation. Your answer should cite the primary papers that you use here. You must have two sets of X candidates TFs, one for mesoderm differentiation, and one for endoderm differentiation.</p>
-<h3 id="task-4-discover-regulators-of-pluripotency">Task 4: Discover regulators of pluripotency</h3>
-<p>What transcription factors potentially oppose epiblast cells from differentiation, and thus promote pluripotency? Perform the same kind of analysis as you did for Task 3 here, but now apply it to find TFs that inhibit epiblast differentaition.</p>
-<h3 id="task-5-compare-cytotrace-to-pseudotime">Task 5: Compare Cytotrace to pseudotime</h3>
-<p>To what extent do Cytotrace and scFtes pseudotime agree? Compute Cytotrace's cell potency on this data and compute its correlation with scFates pseudotime. Do they agree? If not, perform further analyses to explore why this might be the case. </p>
-<h3 id="data_1">Data</h3>
-<h4 id="scrna-seq-data-of-mouse-gastrulation-embryonic-cells">scRNA-seq data of mouse gastrulation embryonic cells</h4>
-<ul>
-<li><a href="https://jhu.instructure.com/files/13615999/download?download_frd=1">h5ad: adHW3_2024.h5ad</a></li>
-<li>Includes only VE, APS, nascent mesoderm, and epiblast cells</li>
-<li>We have already performed cell quality control. You will want to perform gene quality control and standard downstream processing.</li>
-<li>There should be roughly equivalent numbers of cells per population.</li>
-</ul>
-<h4 id="list-of-mouse-transcription-factors">List of mouse transcription factors:</h4>
-<ul>
-<li><a href="https://jhu.instructure.com/files/13616012/download?download_frd=1">allTFs_mm_aertslab_011924.txt</a></li>
-</ul>
 <div class="footnote">
 <hr />
 <ol>
