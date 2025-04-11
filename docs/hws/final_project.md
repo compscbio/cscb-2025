@@ -45,7 +45,7 @@ Here are some more things to consider:
 
 * Most of the time, annData objects do not contain genomic regions for their genes, so you need to do something about this. 
 * Other attempts to solve this problem include gene-specific normalization based on comparison of each cell or sample to a diploid control. How these control samples use for comparison is selected is important.
-* We recommend that you test your ideas on minimally sufficient slices of the [test data](#cna-benchmarking-data). that we provide.
+* We recommend that you test your ideas on minimally sufficient slices of the [test data](#cna-benchmarking-data) that we provide.
 * Check out the following papers and resources for ideas:
 	* Benchmarking CNA prediction methods paper[^8]
 	* [Python port of the InferCNV method](https://infercnvpy.readthedocs.io/en/latest/index.html)
@@ -73,7 +73,7 @@ The validatation data is very limited. There are only 3 CNAs, and they do not va
 * have wider range of sizes
 * have wider ranges of frequencies
 
-Use this extended gold standard data to evaluate your methods ability to resolve CNAs from small to large, and to detect CNAs across frequecies. 
+Use this extended gold standard data to evaluate your methods ability to resolve CNAs from small to large, and to detect CNAs across frequencies. 
 
 If you choose to simulate a gold standard data as we have done, then you must include your simulation functionality in your method's package. If you acquire gold standard data, then you must report the precise source, how the CNA's were defined, and include in your repo any pre-processing of the data required to make it amenable to your analysis.
 
@@ -82,7 +82,7 @@ Other requirements:
 
 ### Task 3: Measure CNA in PSCs
 
-Now that you have developed and assessed your method, it is time to use it! Take a look at [the list of PSC scRNA-seq data below](#psc-scRNA-seq-data). Find an optimal subset of these datasets to see if you can infer previously reported PSC CNAs and to discover new ones.
+Now that you have developed and assessed your method, it is time to use it! Take a look at [the list of PSC scRNA-seq data below](#psc-scrnaseq-data). Find an optimal subset of these datasets to see if you can infer previously reported PSC CNAs and to discover new ones.
 
 Things to consider:
 
@@ -176,11 +176,12 @@ sc.pl.heatmap(adChr22, adChr22.var_names, groupby='simulated_cnvs',layer="counts
 sc.pl.heatmap(adChr22, adChr22.var_names, groupby='simulated_cnvs',layer="counts", log=True, standard_scale='var')
 ```
 
-![chr22](img/final_both_chr22.png){ align=left width=900}
+![chr22](img/final_both_chr22.png)
 
-The CNA is evident as a region with no expression in a subset of the cells. Feel free to use this data as a starting point to test ideas for your algorithm, and even to benchmark it.
 
-#### PSC scRNA-seq data
+The CNA is evident as a region with no expression in a subset of the cells.
+
+#### PSC scRNAseq data
 
 Here is a list of publicly available scRNA-seq data of human PSCs and/or their differentiated progeny. Note that in some cases, we were able to easily find the name of the PSC cell line(s), but in other cases you will have to do this yourself.
 
@@ -239,8 +240,6 @@ Here is a list of publicly available scRNA-seq data of human PSCs and/or their d
 	* Paper: https://elifesciences.org/articles/80075
 
 
-
-
 ### References
 
 [^1]: Screening ethnically diverse human embryonic stem cells identifies a chromosome 20 minimal amplicon conferring growth advantage
@@ -275,68 +274,3 @@ aberrations in human induced pluripotent stem cells. Cell Stem Cell. 2010 Oct
 8;7(4):521-31. doi: 10.1016/j.stem.2010.07.017. [PMID: 20887957.](https://pubmed.ncbi.nlm.nih.gov/20887957/)
 
 [^8]: Song M, Ma S, Wang G, Wang Y, Yang Z, Xie B, Guo T, Huang X, Zhang L. Benchmarking copy number aberrations inference tools using single-cell multi-omics datasets. Brief Bioinform. 2025 Mar 4;26(2):bbaf076. doi:10.1093/bib/bbaf076. [PMID: 40037644; PMCID: PMC11879432.](https://pubmed.ncbi.nlm.nih.gov/40037644/)
-
-
-
-
-
-
-
-
-
-
-
-
-
-. dataMore recently, there have been attempts to infer large CNAs from scRNA-seq data. These have been largely limited to cancer aplications[^,,,]. The overall goal of this project is for you 
-
-
-ou will use a method called e- Karyotyping that was developed by Nissim Benevisty's lab (see paper linked on syllabus). The idea behind e-Karyotpying is that a cell line with a gain in copy will have increased expression of genes encompassed by the gain as compared to cell lines that do not harbor that CNA. Similarly, cell lines with a loss in copy number will have decreased expression of genes encompassed by the lost region as compared to lines that do not harbor the deletion (or loss). One of the benefits of this approach is the gene expression profiling (by arrays or RNA-Seq) is common, and so one does not have to perform additional molecular profiling (e.g. DNA-sequencing) to detect large scale CNA.
-
-
-
-
-### Task 1: Perform cell-typing
-
-Before you can reliably appy TI to this data, you must perform cell-typing to (A) identify and exclude VE cells, and (B) to identify the epiblast, mesoderm, and anterior primitive streak cells. This will allow you to suggest a root for the TI analysis. To help you with this part, here are some well-established marker genes:
-
-- Epiblast: Utf1, Slc7a3, Pou3f1
-- Mesoderm: Mesp1, Fgf3, Snai1
-- Anterior primitive streak: Foxa2, Gsc, Sox17
-- Visceral endoderm: Use your highly refined literature-mining skills to find these. Please select 3-5 genes that are reported to be VE-specific from the literature. You must cite the primary papers in which each gene has been demonstrated to be a marker of murine VE. 
-
-You will know that you are done with Task 1 when you have clearly annotated each cell and have excluded the VE cells from the input data.
-
-### Task 2: Infer trajectory and pseudotime
-
-Use scFates to reconstruct a trajectory that connects epiblast to APS, and epiblast to mesoderm. Then predict the pseudotime for each cell. To receive full credit for Part 2, you must infer the tree, justify your parameter selections, and visualize the resulting tree with labeled branches and milestones, and visualize pseudotime.
-
-
-
-### Task 3: Discover regulators of differentiation
-
-What transcription factors might promote the transition from epiblast to mesoderm or to endoderm? Develop a critiera for ranking transcription factors (TFs) accoring to their predicted importance or influence on differentiation. This could be simply the p-value from scFates's association test, or you might conceive of other criteria. Use this criteria to select the top X TFs (where X >4) that specifically promotes mesoderm or endoderm differentiation from the epiblast. Mine the literature around each of your candidate TFs to assess the extent to which your criteria and application of scFates recovered bona fide regulators of gastrulation. Your answer should cite the primary papers that you use here. You must have two sets of X candidates TFs, one for mesoderm differentiation, and one for endoderm differentiation.
-
-### Task 4: Discover regulators of pluripotency
-
-What transcription factors potentially oppose epiblast cells from differentiation, and thus promote pluripotency? Perform the same kind of analysis as you did for Task 3 here, but now apply it to find TFs that inhibit epiblast differentaition.
-
-### Task 5: Compare Cytotrace to pseudotime
-
-To what extent do Cytotrace and scFtes pseudotime agree? Compute Cytotrace's cell potency on this data and compute its correlation with scFates pseudotime. Do they agree? If not, perform further analyses to explore why this might be the case. 
-
-### Data
-#### scRNA-seq data of mouse gastrulation embryonic cells
-- [h5ad: adHW3_2024.h5ad](https://jhu.instructure.com/files/13615999/download?download_frd=1)
-- Includes only VE, APS, nascent mesoderm, and epiblast cells
-- We have already performed cell quality control. You will want to perform gene quality control and standard downstream processing.
-- There should be roughly equivalent numbers of cells per population.
-
-#### List of mouse transcription factors:
-- [allTFs_mm_aertslab_011924.txt](https://jhu.instructure.com/files/13616012/download?download_frd=1)
-
-
-
-
-
-
