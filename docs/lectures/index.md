@@ -34,6 +34,14 @@ The topics that we cover can be broadly split into three categories: stem cell b
 | 19      | 04-01-25 | Final project overview | [video](https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4eadcb60-edfe-44dd-8a1b-b2b9015ffb3e) | [slides](https://jhu.instructure.com/files/13942611/download?download_frd=1) |
 | 20      | 04-03-25 | Epigenomics | [video](https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=75f2c92d-57ad-4b7e-97cf-b2b401026403) | [slides](https://jhu.instructure.com/files/13880403/download?download_frd=1) |
 | 21      | 04-08-25 | Multiomics | [video](https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=49a55e36-3747-4a16-86ab-b2b901595442) | [slides](https://jhu.instructure.com/files/13880149/download?download_frd=1) |
+| 22      | 04-15-25 | Chromatin accessibility & ChIP-seq analysis | - | [slides](https://jhu.instructure.com/files/14040954/download?download_frd=1) |
+| 23A      | 04-17-25 | RNA Velocity | - | [slides](https://jhu.instructure.com/files/14040931/download?download_frd=1) |
+| 23B      | 04-17-25 | Cell modeling | - | [slides](https://jhu.instructure.com/files/14040930/download?download_frd=1) |
+
+
+
+
+
 
 
 

@@ -117,7 +117,15 @@ Feb;22(2):71-88. doi: 10.1038/s41576-020-00292-x. Epub 2020 Nov 9. PMID:
 
 ### No class Mar 18/20 Spring break
 
-### Week 9 (Mar 25/26): Spatial transcriptomics
+### Week 13 (Apr 13/15): RNA Velocity, Cell-based modeling
+
+1. La Manno G, Soldatov R, Zeisel A, Braun E, Hochgerner H, Petukhov V,
+Lidschreiber K, Kastriti ME, Lönnerberg P, Furlan A, Fan J, Borm LE, Liu Z, van Bruggen D, Guo J, He X, Barker R, Sundström E, Castelo-Branco G, Cramer P, Adameyko I, Linnarsson S, Kharchenko PV. RNA velocity of single cells. Nature. 2018 Aug;560(7719):494-498. doi: 10.1038/s41586-018-0414-6. Epub 2018 Aug 8. [PMID: 30089906; PMCID: PMC6130801.](https://pubmed.ncbi.nlm.nih.gov/30089906/)
+
+2. Sharpe J. Computer modeling in developmental biology: growing today,
+essential tomorrow. Development. 2017 Dec 1;144(23):4214-4225. doi:
+10.1242/dev.151274. [PMID: 29183935.](https://pubmed.ncbi.nlm.nih.gov/29183935/)
+
 
 
 
