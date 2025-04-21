@@ -145,7 +145,7 @@ Retraction in: Nature. 2014 Jul 3;511(7507):112. doi: 10.1038/nature13598. [PMID
 
 3. Wu J, Fu J. Toward developing human organs via embryo models and chimeras.
 Cell. 2024 Jun 20;187(13):3194-3219. doi: 10.1016/j.cell.2024.05.027. [PMID:
-38906095; PMCID: PMC11239105] (https://jhu.instructure.com/files/14080162/download?download_frd=1) **Download only**
+38906095; PMCID: PMC11239105](https://jhu.instructure.com/files/14080162/download?download_frd=1) **Download only**
 
 4. Rivron NC, Martinez Arias A, Pera MF, Moris N, M'hamdi HI. An ethical
 framework for human embryology with embryo models. Cell. 2023 Aug
