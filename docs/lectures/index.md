@@ -37,7 +37,8 @@ The topics that we cover can be broadly split into three categories: stem cell b
 | 22      | 04-15-25 | Chromatin accessibility & ChIP-seq analysis | [video](https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=e1f98da2-2b4f-446c-be5c-b2c300ec7fc1) | [slides](https://jhu.instructure.com/files/14040954/download?download_frd=1) |
 | 23A      | 04-17-25 | RNA Velocity | [video](https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=84c4f4a3-c077-4b29-a825-b2c300f2875c) | [slides](https://jhu.instructure.com/files/14040931/download?download_frd=1) |
 | 23B      | 04-17-25 | Cell modeling | [video](https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=a539428c-f55e-4ad6-be8b-b2c30101eabb) | [slides](https://jhu.instructure.com/files/14040930/download?download_frd=1) |
-
+| 24      | 04-22-25 | Controversies in the stem cell world | - | - |
+| 25      | 04-24-25 | Clinical trials with stem cells | - | - |
 
 
 

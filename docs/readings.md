@@ -127,6 +127,37 @@ essential tomorrow. Development. 2017 Dec 1;144(23):4214-4225. doi:
 10.1242/dev.151274. [PMID: 29183935.](https://pubmed.ncbi.nlm.nih.gov/29183935/)
 
 
+### Week 14 (Apr 22/24): Controversies and clinical trials
+
+1. Hwang WS, Ryu YJ, Park JH, Park ES, Lee EG, Koo JM, Jeon HY, Lee BC, Kang SK,
+Kim SJ, Ahn C, Hwang JH, Park KY, Cibelli JB, Moon SY. RETRACTED: Evidence of a
+pluripotent human embryonic stem cell line derived from a cloned blastocyst.
+Science. 2004 Mar 12;303(5664):1669-74. [doi: 10.1126/science.1094515. Epub 2004
+Feb 12. Retraction in: Science. 2006 Jan 20;311(5759):335. doi:
+10.1126/science.1124926. Erratum in: Science. 2005 Dec 16;310(5755):1769. PMID:
+14963337.](https://pubmed.ncbi.nlm.nih.gov/14963337/)
+
+2. Obokata H, Wakayama T, Sasai Y, Kojima K, Vacanti MP, Niwa H, Yamato M,
+Vacanti CA. Stimulus-triggered fate conversion of somatic cells into
+pluripotency. Nature. 2014 Jan 30;505(7485):641-7. doi: 10.1038/nature12968.
+Retraction in: Nature. 2014 Jul 3;511(7507):112. doi: 10.1038/nature13598. [PMID:
+24476887.](https://pubmed.ncbi.nlm.nih.gov/24476887/)
+
+3. Wu J, Fu J. Toward developing human organs via embryo models and chimeras.
+Cell. 2024 Jun 20;187(13):3194-3219. doi: 10.1016/j.cell.2024.05.027. [PMID:
+38906095; PMCID: PMC11239105] (https://jhu.instructure.com/files/14080162/download?download_frd=1) **Download only**
+
+4. Rivron NC, Martinez Arias A, Pera MF, Moris N, M'hamdi HI. An ethical
+framework for human embryology with embryo models. Cell. 2023 Aug
+17;186(17):3548-3557. doi: 10.1016/j.cell.2023.07.028. [PMID: 37595564.](https://pubmed.ncbi.nlm.nih.gov/37595564/)
+
+5. Kirkeby A, Main H, Carpenter M. Pluripotent stem-cell-derived therapies in
+clinical trial: A 2025 update. Cell Stem Cell. 2025 Jan 2;32(1):10-37. doi:
+10.1016/j.stem.2024.12.005. Erratum in: Cell Stem Cell. 2025 Feb
+6;32(2):329-331. doi: 10.1016/j.stem.2025.01.003. [PMID: 39753110.](https://pubmed.ncbi.nlm.nih.gov/39753110/)
+
+6. Guidelines for stem cell research and clinical translation from the International Society for Stem Cell Research (ISSCR) [Link](https://www.isscr.org/guidelines)
+
 
 
 
